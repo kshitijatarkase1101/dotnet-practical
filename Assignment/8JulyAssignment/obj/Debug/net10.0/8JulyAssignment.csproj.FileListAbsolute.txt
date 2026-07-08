@@ -1,0 +1,14 @@
+C:\practical .net\8JulyAssignment\obj\Debug\net10.0\8JulyAssignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\practical .net\8JulyAssignment\obj\Debug\net10.0\8JulyAssignment.AssemblyInfoInputs.cache
+C:\practical .net\8JulyAssignment\obj\Debug\net10.0\8JulyAssignment.AssemblyInfo.cs
+C:\practical .net\8JulyAssignment\obj\Debug\net10.0\8JulyAssignment.csproj.CoreCompileInputs.cache
+C:\practical .net\8JulyAssignment\bin\Debug\net10.0\8JulyAssignment.exe
+C:\practical .net\8JulyAssignment\bin\Debug\net10.0\8JulyAssignment.deps.json
+C:\practical .net\8JulyAssignment\bin\Debug\net10.0\8JulyAssignment.runtimeconfig.json
+C:\practical .net\8JulyAssignment\bin\Debug\net10.0\8JulyAssignment.dll
+C:\practical .net\8JulyAssignment\bin\Debug\net10.0\8JulyAssignment.pdb
+C:\practical .net\8JulyAssignment\obj\Debug\net10.0\8JulyAssignment.dll
+C:\practical .net\8JulyAssignment\obj\Debug\net10.0\refint\8JulyAssignment.dll
+C:\practical .net\8JulyAssignment\obj\Debug\net10.0\8JulyAssignment.pdb
+C:\practical .net\8JulyAssignment\obj\Debug\net10.0\8JulyAssignment.genruntimeconfig.cache
+C:\practical .net\8JulyAssignment\obj\Debug\net10.0\ref\8JulyAssignment.dll
