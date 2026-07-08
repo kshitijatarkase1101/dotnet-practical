@@ -1,0 +1,14 @@
+C:\practical .net\7July\bin\Debug\net10.0\7July.exe
+C:\practical .net\7July\bin\Debug\net10.0\7July.deps.json
+C:\practical .net\7July\bin\Debug\net10.0\7July.runtimeconfig.json
+C:\practical .net\7July\bin\Debug\net10.0\7July.dll
+C:\practical .net\7July\bin\Debug\net10.0\7July.pdb
+C:\practical .net\7July\obj\Debug\net10.0\7July.GeneratedMSBuildEditorConfig.editorconfig
+C:\practical .net\7July\obj\Debug\net10.0\7July.AssemblyInfoInputs.cache
+C:\practical .net\7July\obj\Debug\net10.0\7July.AssemblyInfo.cs
+C:\practical .net\7July\obj\Debug\net10.0\7July.csproj.CoreCompileInputs.cache
+C:\practical .net\7July\obj\Debug\net10.0\7July.dll
+C:\practical .net\7July\obj\Debug\net10.0\refint\7July.dll
+C:\practical .net\7July\obj\Debug\net10.0\7July.pdb
+C:\practical .net\7July\obj\Debug\net10.0\7July.genruntimeconfig.cache
+C:\practical .net\7July\obj\Debug\net10.0\ref\7July.dll

@@ -1,0 +1,14 @@
+C:\practical .net\8July\bin\Debug\net10.0\8July.exe
+C:\practical .net\8July\bin\Debug\net10.0\8July.deps.json
+C:\practical .net\8July\bin\Debug\net10.0\8July.runtimeconfig.json
+C:\practical .net\8July\bin\Debug\net10.0\8July.dll
+C:\practical .net\8July\bin\Debug\net10.0\8July.pdb
+C:\practical .net\8July\obj\Debug\net10.0\8July.GeneratedMSBuildEditorConfig.editorconfig
+C:\practical .net\8July\obj\Debug\net10.0\8July.AssemblyInfoInputs.cache
+C:\practical .net\8July\obj\Debug\net10.0\8July.AssemblyInfo.cs
+C:\practical .net\8July\obj\Debug\net10.0\8July.csproj.CoreCompileInputs.cache
+C:\practical .net\8July\obj\Debug\net10.0\8July.dll
+C:\practical .net\8July\obj\Debug\net10.0\refint\8July.dll
+C:\practical .net\8July\obj\Debug\net10.0\8July.pdb
+C:\practical .net\8July\obj\Debug\net10.0\8July.genruntimeconfig.cache
+C:\practical .net\8July\obj\Debug\net10.0\ref\8July.dll
