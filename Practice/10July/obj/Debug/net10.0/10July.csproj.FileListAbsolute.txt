@@ -1,0 +1,15 @@
+C:\practical .net\Practice\10July\obj\Debug\net10.0\10July.GeneratedMSBuildEditorConfig.editorconfig
+C:\practical .net\Practice\10July\obj\Debug\net10.0\10July.AssemblyInfoInputs.cache
+C:\practical .net\Practice\10July\obj\Debug\net10.0\10July.AssemblyInfo.cs
+C:\practical .net\Practice\10July\obj\Debug\net10.0\10July.csproj.CoreCompileInputs.cache
+C:\practical .net\Practice\10July\obj\Debug\net10.0\10July.sourcelink.json
+C:\practical .net\Practice\10July\bin\Debug\net10.0\10July.exe
+C:\practical .net\Practice\10July\bin\Debug\net10.0\10July.deps.json
+C:\practical .net\Practice\10July\bin\Debug\net10.0\10July.runtimeconfig.json
+C:\practical .net\Practice\10July\bin\Debug\net10.0\10July.dll
+C:\practical .net\Practice\10July\bin\Debug\net10.0\10July.pdb
+C:\practical .net\Practice\10July\obj\Debug\net10.0\10July.dll
+C:\practical .net\Practice\10July\obj\Debug\net10.0\refint\10July.dll
+C:\practical .net\Practice\10July\obj\Debug\net10.0\10July.pdb
+C:\practical .net\Practice\10July\obj\Debug\net10.0\10July.genruntimeconfig.cache
+C:\practical .net\Practice\10July\obj\Debug\net10.0\ref\10July.dll
