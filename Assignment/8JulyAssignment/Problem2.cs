@@ -14,6 +14,7 @@ class Problem2
         booknames.Add("The Thousand Splendid Suns");
         booknames.Add("Little Life");
         
+        Console.WriteLine("          ");
         Console.WriteLine("Books available in library:");
 
         foreach(string f in booknames)
@@ -23,14 +24,14 @@ class Problem2
         
          booknames.Add("Works Of SwamiVivekanand");
          booknames.Remove("Atomic Habits");
-
+          Console.WriteLine("              ");
           Console.WriteLine("Updated List:");
 
          foreach(string f in booknames)
         {
             Console.WriteLine(f);
         }
-            
+            Console.WriteLine("       ");
              Console.WriteLine("Total no. of Books="+ booknames.Count);
 
 

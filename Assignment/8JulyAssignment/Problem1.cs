@@ -4,7 +4,7 @@ using System.Numerics;
 
 class Problem1
 {
-    public static void Main()
+   /* public static void Main()
     {
       int totalsales = 0;
       int Min=4000000;
@@ -15,7 +15,7 @@ class Problem1
       foreach(int s in Salary)
         {
             totalsales += s;
-            Console.WriteLine(s);
+            Console.WriteLine(s+" "+ "Rs");
 
             if(s<=Min)
             {
@@ -30,9 +30,9 @@ class Problem1
             
             
         }  
-        Console.WriteLine("Total sales by employees="+totalsales);
-        Console.WriteLine("Average Sales = "+(totalsales/6));
-        Console.WriteLine("Lowest Sales="+ Min);
-        Console.WriteLine("Highest Sales="+Max);
-    }
+        Console.WriteLine("Total sales by employees="+totalsales+" "+"Rs");
+        Console.WriteLine("Average Sales = "+(totalsales/6)+" "+"Rs");
+        Console.WriteLine("Lowest Sales="+ Min+" "+"Rs");
+        Console.WriteLine("Highest Sales="+Max+" "+"Rs");
+    }*/
 }
