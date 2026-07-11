@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 class Problem2
 {
-    public static void Main()
+    public  void Display()
     {
         
         List<string> booknames = new List<string>();

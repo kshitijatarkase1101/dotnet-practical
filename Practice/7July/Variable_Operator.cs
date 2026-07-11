@@ -7,6 +7,9 @@ int a = 10;
 int b = 3;
  public void display()
     {
+Console.WriteLine("  ");
+Console.WriteLine("Operations on variables: ");
+
 //arithmetic operations
 Console.WriteLine(a+b);
 Console.WriteLine(a-b);
@@ -15,7 +18,7 @@ Console.WriteLine(a/b);
 // Increment & Decrement
                     // a is now 11 (Post-increment                // b is now 2  (Post-decrement)
 Console.WriteLine(a++);
-Console.WriteLine(b--);
+Console.WriteLine(--b);
 
 //comparison operations
 int x= 5, y = 7;

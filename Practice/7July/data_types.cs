@@ -9,6 +9,7 @@ float CGPA=8.9f;
 double pi= 3.14;
 
 char Gender='F';
+Console.WriteLine("  ");
 
 Console.WriteLine("Printing variables of different data types");
 Console.WriteLine("Roll_no="+Roll_no);
