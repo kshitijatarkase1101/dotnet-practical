@@ -1,0 +1,15 @@
+C:\practical .net\Assignment\11JulyAssignment\obj\Debug\net10.0\11JulyAssignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\practical .net\Assignment\11JulyAssignment\obj\Debug\net10.0\11JulyAssignment.AssemblyInfoInputs.cache
+C:\practical .net\Assignment\11JulyAssignment\obj\Debug\net10.0\11JulyAssignment.AssemblyInfo.cs
+C:\practical .net\Assignment\11JulyAssignment\obj\Debug\net10.0\11JulyAssignment.csproj.CoreCompileInputs.cache
+C:\practical .net\Assignment\11JulyAssignment\obj\Debug\net10.0\11JulyAssignment.sourcelink.json
+C:\practical .net\Assignment\11JulyAssignment\bin\Debug\net10.0\11JulyAssignment.exe
+C:\practical .net\Assignment\11JulyAssignment\bin\Debug\net10.0\11JulyAssignment.deps.json
+C:\practical .net\Assignment\11JulyAssignment\bin\Debug\net10.0\11JulyAssignment.runtimeconfig.json
+C:\practical .net\Assignment\11JulyAssignment\bin\Debug\net10.0\11JulyAssignment.dll
+C:\practical .net\Assignment\11JulyAssignment\bin\Debug\net10.0\11JulyAssignment.pdb
+C:\practical .net\Assignment\11JulyAssignment\obj\Debug\net10.0\11JulyAssignment.dll
+C:\practical .net\Assignment\11JulyAssignment\obj\Debug\net10.0\refint\11JulyAssignment.dll
+C:\practical .net\Assignment\11JulyAssignment\obj\Debug\net10.0\11JulyAssignment.pdb
+C:\practical .net\Assignment\11JulyAssignment\obj\Debug\net10.0\11JulyAssignment.genruntimeconfig.cache
+C:\practical .net\Assignment\11JulyAssignment\obj\Debug\net10.0\ref\11JulyAssignment.dll
