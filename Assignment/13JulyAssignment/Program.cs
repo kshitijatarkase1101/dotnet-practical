@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics.Contracts;
+using System.Numerics;
 
 class Program
 {
@@ -107,7 +108,143 @@ class Program
             Console.WriteLine("Product Not Found");
         }
         
-       
+        foreach(Product p in products)
+        {
+            Console.WriteLine("All products:");
+           
+            Console.WriteLine($"ID : {p.ProductId}");
+           Console.WriteLine($"Name : {p.ProductName}");
+           Console.WriteLine($"Price : {p.Price}");
+           Console.WriteLine($"Stock : {p.Stock}");
+           Console.WriteLine("-----------");
+        }
+
+        List<Product> Cart= new  List<Product>();
+        decimal totalAmount = 0;
+        string choice;
+
+        do
+        {
+            Console.WriteLine("Enter Product ID");
+            int cid = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Quantity:");
+            int qty = Convert.ToInt32(Console.ReadLine());
+
+            bool pfound= false;
+
+            foreach(var p in products){
+                if (p.ProductId==cid)
+                {
+                    pfound=true;
+
+                    if(p.Stock>=qty)
+                    {
+                         decimal amount = p.Price * qty;
+                         totalAmount += amount;
+
+                         Cart.Add(new Product
+                         {
+                             ProductId=p.ProductId,
+                             ProductName=p.ProductName,
+                             Price=p.Price,
+                             Stock=qty,
+
+                         });
+                         Console.WriteLine("Product added to cart");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Stock not available");
+                    }
+                    break;
+                }
+            }
+
+            if(!found)
+            {
+                Console.WriteLine("Product not found");
+            }
+
+            Console.WriteLine("Do you want to add another product/(yes/no)");
+            choice = Console.ReadLine();
+        }while(choice.ToLower()=="yes");
+
+        Console.WriteLine("\n------CART-------");
+        
+        foreach(var item in Cart)
+        {
+             Console.WriteLine($"{item.ProductName}*{item.Stock}");
+        }
+         
+          Console.WriteLine("Total Amount ="+ totalAmount);
+
+          int Discount=0;
+          decimal FinalAmount=0;
+
+        if (totalAmount < 1000)
+        {
+            Discount=10;
+            
+            
+        }
+        else if(totalAmount>=5000 && totalAmount<= 9999)
+        {
+            Discount= 20;
+            FinalAmount=totalAmount*(20/100);
+        
+            
+
+        }
+        else 
+        {
+            Discount= 30;
+        }
+        FinalAmount=totalAmount-(totalAmount*Discount/100);
+        Console.WriteLine("Total Amount="+ totalAmount);
+        Console.WriteLine("Discount="+ Discount);
+        Console.WriteLine("Final Amount="+ FinalAmount);
+
+          while(true)
+        {
+            Console.WriteLine("---Payment Gateway--");
+            Console.WriteLine("1. UPI");
+            Console.WriteLine("2. Credit Card");
+            Console.WriteLine("3. Debit Card");
+            Console.WriteLine("4. Cash On Delivery");
+            Console.WriteLine("Enter choice 1-4");
+
+            try
+            {
+                int pchoice= Convert.ToInt32(Console.ReadLine());
+                switch(pchoice)
+                {
+                    case 1:
+                      Console.WriteLine("Payment Successful");
+                      break;
+                    case 2:
+                      Console.WriteLine("Payment Successful");
+                      break;
+                    case 3:
+                      Console.WriteLine("Payment Successful");
+                      break;
+                    case 4:
+                      Console.WriteLine("Payment Successful");
+                      break;
+
+                    
+
+
+                }
+            } catch(FormatException Exception)
+            {
+                Console.WriteLine("Invalid Option");
+            }
+            catch( Exception e)
+            {
+                Console.WriteLine("Invalid Option");
+            }
+
+        } 
     }
 }
         
