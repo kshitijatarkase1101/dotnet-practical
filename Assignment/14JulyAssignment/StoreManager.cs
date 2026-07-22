@@ -195,8 +195,7 @@ public void SearchItem()
                 Console.Write("Enter Item Name : ");
                 string name = Console.ReadLine();
 
-                item = items.FirstOrDefault(i =>
-                    i.ItemName.Equals(name, StringComparison.OrdinalIgnoreCase));
+                item = items.FirstOrDefault(i =>i.ItemName.Equals(name, StringComparison.OrdinalIgnoreCase));
 
                 break;
 

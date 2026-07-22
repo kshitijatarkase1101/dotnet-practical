@@ -20,8 +20,16 @@ class Vehicle
      
      
      public void Add()
-    {
-        Vehicle v= new Vehicle();
+    { 
+        Console.WriteLine("Enter Vehicle ID:");
+        int id =Convert.ToInt32(Console.ReadLine());  
+        foreach(Vehicle v in vehicles){
+            if (v.VehicleID == id)
+            {
+                Console.WriteLine("Vehicle already exists");
+                break;
+            }
+            else{
         Console.WriteLine("Enter Vehicle ID:");
         v.VehicleID =Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Enter Vehicle Name:");
@@ -36,6 +44,9 @@ class Vehicle
         v.Year=Convert.ToInt32(Console.ReadLine());
 
         vehicles.Add(v);
+        break;
+            }
+    }
     }
 
     public void View()

@@ -109,7 +109,7 @@ public void DisplayStudentDetails()
      DisplayCourses();
 
       Console.WriteLine("Total Credits : " + TotalCredits());
-Console.WriteLine("Total Fee : " + CalculateFee());
+      Console.WriteLine("Total Fee : " + CalculateFee());
 
     
 }

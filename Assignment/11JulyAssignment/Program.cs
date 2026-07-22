@@ -52,7 +52,7 @@ class Program
                 int sid=Convert.ToInt32(Console.ReadLine());
 
                 Student foundstudent = studentManager.SearchStudent(sid);
-                                 if (foundstudent != null)
+                if (foundstudent != null)
                 {
                       foundstudent.DisplayStudent();
                 }
@@ -174,46 +174,46 @@ static void CourseManagementMenu(CourseManager courseManager)
                 case "3": 
                     
 
-    Console.Write("Enter Student ID: ");
-    int studentId = Convert.ToInt32(Console.ReadLine());
+                 Console.Write("Enter Student ID: ");
+                 int studentId = Convert.ToInt32(Console.ReadLine());
 
-    Student student = studentManager.SearchStudent(studentId);
+                 Student student = studentManager.SearchStudent(studentId);
 
-    if (student == null)
-    {
-        Console.WriteLine("Student not found.");
-        break;
-    }
+                 if (student == null)
+                 {
+                       Console.WriteLine("Student not found.");
+                        break;
+                 }
 
-    Console.Write("Enter Course ID: ");
-    int courseId = Convert.ToInt32(Console.ReadLine());
+                 Console.Write("Enter Course ID: ");
+                 int courseId = Convert.ToInt32(Console.ReadLine());
 
-    Course course = courseManager.SearchCourse(courseId);
+                  Course course = courseManager.SearchCourse(courseId);
 
-    if (course == null)
-    {
-        Console.WriteLine("Course not found.");
-        break;
-    }
+                 if (course == null)
+                {
+                     Console.WriteLine("Course not found.");
+                  break;
+                 }
 
-    student.RegisterCourse(course);
+                student.RegisterCourse(course);
 
-    break;
+                 break;
     
                     
 
-                case "4":
+             case "4":
                     
 
-    Console.Write("Enter Student ID: ");
-    int id = Convert.ToInt32(Console.ReadLine());
+                 Console.Write("Enter Student ID: ");
+                 int id = Convert.ToInt32(Console.ReadLine());
 
-    studentManager.DisplayStudentDetails(id);
+                 studentManager.DisplayStudentDetails(id);
 
-    break;
+                   break;
                     
 
-                case "5":
+          case "5":
                     exit = true;
                     Console.WriteLine("Thank you!");
                     break;

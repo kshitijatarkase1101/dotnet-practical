@@ -1,0 +1,30 @@
+﻿@model List<_16JulyAssignment.Models.Employee>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Employee Management System</h1>
+    
+</div>
+<table border="1" cellpadding="10">
+    <tr>
+        <th>EMPLOYEE ID</th>
+        <th>EMPLOYEE NAME</th>
+        <th>DEPARTMENT</th>
+        <th>SALARY</th>
+        <th>EMAIL</th>
+    </tr>
+    @foreach(var item in Model)
+    {
+        <tr>
+            <td>@item.EmployeeID</td>
+            <td>@item.EmployeeName</td>
+            <td>@item.Department</td>
+            <td>@item.Salary</td>
+            <td>@item.Email</td>
+        </tr>
+    }
+</table>
+  
