@@ -27,7 +27,7 @@ class Delegateeg
 
     }
 
-   /* static void Main()
+    static void Main()
     {
        
         
@@ -40,5 +40,5 @@ class Delegateeg
         Button bt = new Button();
         bt.Click +=()  => Console.WriteLine("Click event");
         bt.Press();
-    }*/
+    }
 }

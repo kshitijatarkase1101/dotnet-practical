@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\practical.net\\Practice\\22July\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AEBE50-3AFC-4C82-9DE7-8E6B2D0E2C59}|22July\\22July.csproj|c:\\practical.net\\practice\\22july\\22july\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AEBE50-3AFC-4C82-9DE7-8E6B2D0E2C59}|22July\\22July.csproj|solutionrelative:22july\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AEBE50-3AFC-4C82-9DE7-8E6B2D0E2C59}|22July\\22July.csproj|c:\\practical.net\\practice\\22july\\22july\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AEBE50-3AFC-4C82-9DE7-8E6B2D0E2C59}|22July\\22July.csproj|solutionrelative:22july\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AEBE50-3AFC-4C82-9DE7-8E6B2D0E2C59}|22July\\22July.csproj|c:\\practical.net\\practice\\22july\\22july\\models\\stationary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AEBE50-3AFC-4C82-9DE7-8E6B2D0E2C59}|22July\\22July.csproj|solutionrelative:22july\\models\\stationary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AEBE50-3AFC-4C82-9DE7-8E6B2D0E2C59}|22July\\22July.csproj|c:\\practical.net\\practice\\22july\\22july\\views\\home\\stationary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4AEBE50-3AFC-4C82-9DE7-8E6B2D0E2C59}|22July\\22July.csproj|solutionrelative:22july\\views\\home\\stationary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AEBE50-3AFC-4C82-9DE7-8E6B2D0E2C59}|22July\\22July.csproj|c:\\practical.net\\practice\\22july\\22july\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4AEBE50-3AFC-4C82-9DE7-8E6B2D0E2C59}|22July\\22July.csproj|solutionrelative:22july\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AEBE50-3AFC-4C82-9DE7-8E6B2D0E2C59}|22July\\22July.csproj|c:\\practical.net\\practice\\22july\\22july\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AEBE50-3AFC-4C82-9DE7-8E6B2D0E2C59}|22July\\22July.csproj|solutionrelative:22july\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\practical.net\\Practice\\22July\\22July\\Program.cs",
+              "RelativeDocumentMoniker": "22July\\Program.cs",
+              "ToolTip": "C:\\practical.net\\Practice\\22July\\22July\\Program.cs",
+              "RelativeToolTip": "22July\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T06:05:57.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Stationary.cshtml",
+              "DocumentMoniker": "C:\\practical.net\\Practice\\22July\\22July\\Views\\Home\\Stationary.cshtml",
+              "RelativeDocumentMoniker": "22July\\Views\\Home\\Stationary.cshtml",
+              "ToolTip": "C:\\practical.net\\Practice\\22July\\22July\\Views\\Home\\Stationary.cshtml",
+              "RelativeToolTip": "22July\\Views\\Home\\Stationary.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-22T05:57:29.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Stationary.cs",
+              "DocumentMoniker": "C:\\practical.net\\Practice\\22July\\22July\\Models\\Stationary.cs",
+              "RelativeDocumentMoniker": "22July\\Models\\Stationary.cs",
+              "ToolTip": "C:\\practical.net\\Practice\\22July\\22July\\Models\\Stationary.cs",
+              "RelativeToolTip": "22July\\Models\\Stationary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T05:47:08.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\practical.net\\Practice\\22July\\22July\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "22July\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\practical.net\\Practice\\22July\\22July\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "22July\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-22T04:40:12.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\practical.net\\Practice\\22July\\22July\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "22July\\Models\\Product.cs",
+              "ToolTip": "C:\\practical.net\\Practice\\22July\\22July\\Models\\Product.cs",
+              "RelativeToolTip": "22July\\Models\\Product.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T04:23:51.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\practical.net\\Practice\\22July\\22July\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "22July\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\practical.net\\Practice\\22July\\22July\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "22July\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T04:31:06.93Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

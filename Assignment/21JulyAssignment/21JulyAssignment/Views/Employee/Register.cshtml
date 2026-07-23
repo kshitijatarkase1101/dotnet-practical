@@ -1,0 +1,47 @@
+﻿@model _21JulyAssignment.Models.Employee
+
+<div class="text-center">
+    <h1 class="display-4">Employee Management System</h1>
+    
+</div>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    <table>
+        <tr> 
+            <td>Employee Id :</td>
+            <td>@Html.TextBoxFor(m=>m.EmployeeId)@Html.ValidationMessageFor(m=>m.EmployeeId)</td>
+        </tr>
+
+        <tr>
+            <td>Employee Name :</td>
+            <td>@Html.TextBoxFor(m => m.EmployeeName)@Html.ValidationMessageFor(m => m.EmployeeName)</td>
+        </tr>
+
+        <tr>
+            <td>Department :</td>
+            <td>@Html.TextBoxFor(m => m.Department)@Html.ValidationMessageFor(m => m.Department)</td>
+        </tr>
+
+        <tr>
+            <td>Salary :</td>
+            <td>@Html.TextBoxFor(m => m.Salary)@Html.ValidationMessageFor(m => m.Salary)</td>
+        </tr>
+
+        <tr>
+            <td>Email :</td>
+            <td>@Html.TextBoxFor(m => m.Email)@Html.ValidationMessageFor(m => m.Email)</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Register"/></td>
+        </tr>
+
+       
+    </table>
+}
+@if (ViewBag.Message != null)
+{
+    <h3 style="color:red">@ViewBag.Message</h3>
+}

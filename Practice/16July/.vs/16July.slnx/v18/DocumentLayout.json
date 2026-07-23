@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\Practical.net\\Practice\\16July\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49DB6B3F-D447-4BA8-A9F5-CE927FA413AF}|16july\\16july.csproj|c:\\users\\hp\\practical.net\\practice\\16july\\16july\\wwwroot\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{49DB6B3F-D447-4BA8-A9F5-CE927FA413AF}|16july\\16july.csproj|solutionrelative:16july\\wwwroot\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49DB6B3F-D447-4BA8-A9F5-CE927FA413AF}|16july\\16july.csproj|c:\\users\\hp\\practical.net\\practice\\16july\\16july\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49DB6B3F-D447-4BA8-A9F5-CE927FA413AF}|16july\\16july.csproj|solutionrelative:16july\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49DB6B3F-D447-4BA8-A9F5-CE927FA413AF}|16july\\16july.csproj|c:\\users\\hp\\practical.net\\practice\\16july\\16july\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49DB6B3F-D447-4BA8-A9F5-CE927FA413AF}|16july\\16july.csproj|solutionrelative:16july\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49DB6B3F-D447-4BA8-A9F5-CE927FA413AF}|16july\\16july.csproj|c:\\users\\hp\\practical.net\\practice\\16july\\16july\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49DB6B3F-D447-4BA8-A9F5-CE927FA413AF}|16july\\16july.csproj|solutionrelative:16july\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49DB6B3F-D447-4BA8-A9F5-CE927FA413AF}|16july\\16july.csproj|c:\\users\\hp\\practical.net\\practice\\16july\\16july\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49DB6B3F-D447-4BA8-A9F5-CE927FA413AF}|16july\\16july.csproj|solutionrelative:16july\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Practical.net\\Practice\\16July\\16July\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "16July\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Practical.net\\Practice\\16July\\16July\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "16July\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-16T06:12:21.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\hp\\Practical.net\\Practice\\16July\\16July\\wwwroot\\style.css",
+              "RelativeDocumentMoniker": "16July\\wwwroot\\style.css",
+              "ToolTip": "C:\\Users\\hp\\Practical.net\\Practice\\16July\\16July\\wwwroot\\style.css",
+              "RelativeToolTip": "16July\\wwwroot\\style.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-16T06:06:09.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Practical.net\\Practice\\16July\\16July\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "16July\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\hp\\Practical.net\\Practice\\16July\\16July\\Models\\Student.cs",
+              "RelativeToolTip": "16July\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T05:16:43.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Practical.net\\Practice\\16July\\16July\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "16July\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Practical.net\\Practice\\16July\\16July\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "16July\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-16T04:58:41.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Practical.net\\Practice\\16July\\16July\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "16July\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\hp\\Practical.net\\Practice\\16July\\16July\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "16July\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T04:58:13.714Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

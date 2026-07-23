@@ -1,0 +1,25 @@
+﻿@model List<_21JulyAssignment.Models.Department>
+
+    <h1>Register Successfully</h1>
+    <h4> Welcome, @TempData["EmployeeName"],@TempData["Department"]</h4>
+
+    <p> Department Details are shown Below:</p> 
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Department Name</th>
+            <th>Department Head</th>
+            <th>Head Contact</th>
+            <th>Head Email</th>
+        </tr>
+
+        @foreach (var department in Model)
+    {
+        <tr>
+            <td>@department.DepartmentName</td>
+            <td>@department.DepartmentHead</td>
+            <td>@department.HeadContact</td>
+            <td>@department.HeadEmail</td>
+        </tr>
+    }
+</table>

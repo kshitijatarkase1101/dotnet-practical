@@ -3,7 +3,7 @@
 
 using System.Security.Cryptography.X509Certificates;
 
-/*Func<int,int> square = x => x*x ;
+Func<int,int> square = x => x*x ;
 Console.WriteLine(square(6));
 
 Func<int,int,int> subb = (a,b) => a-b;
@@ -14,4 +14,4 @@ void Psubb(int a, int b)
     int res = a-b ;
     Console.WriteLine(res);
 }
-Psubb(50,20);*/
+Psubb(50,20);

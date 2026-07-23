@@ -1,0 +1,226 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\practical .net\\Practice\\22JulyAssignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6AFF8536-2F98-4118-3A98-AD21DEADB958}|22JulyAssignment\\22JulyAssignment.csproj|c:\\practical .net\\practice\\22julyassignment\\22julyassignment\\views\\automobile\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6AFF8536-2F98-4118-3A98-AD21DEADB958}|22JulyAssignment\\22JulyAssignment.csproj|solutionrelative:22julyassignment\\views\\automobile\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AFF8536-2F98-4118-3A98-AD21DEADB958}|22JulyAssignment\\22JulyAssignment.csproj|c:\\practical .net\\practice\\22julyassignment\\22julyassignment\\models\\automobile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AFF8536-2F98-4118-3A98-AD21DEADB958}|22JulyAssignment\\22JulyAssignment.csproj|solutionrelative:22julyassignment\\models\\automobile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AFF8536-2F98-4118-3A98-AD21DEADB958}|22JulyAssignment\\22JulyAssignment.csproj|c:\\practical .net\\practice\\22julyassignment\\22julyassignment\\views\\automobile\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6AFF8536-2F98-4118-3A98-AD21DEADB958}|22JulyAssignment\\22JulyAssignment.csproj|solutionrelative:22julyassignment\\views\\automobile\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AFF8536-2F98-4118-3A98-AD21DEADB958}|22JulyAssignment\\22JulyAssignment.csproj|c:\\practical .net\\practice\\22julyassignment\\22julyassignment\\views\\manufacturer\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6AFF8536-2F98-4118-3A98-AD21DEADB958}|22JulyAssignment\\22JulyAssignment.csproj|solutionrelative:22julyassignment\\views\\manufacturer\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AFF8536-2F98-4118-3A98-AD21DEADB958}|22JulyAssignment\\22JulyAssignment.csproj|c:\\practical .net\\practice\\22julyassignment\\22julyassignment\\views\\manufacturer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6AFF8536-2F98-4118-3A98-AD21DEADB958}|22JulyAssignment\\22JulyAssignment.csproj|solutionrelative:22julyassignment\\views\\manufacturer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AFF8536-2F98-4118-3A98-AD21DEADB958}|22JulyAssignment\\22JulyAssignment.csproj|c:\\practical .net\\practice\\22julyassignment\\22julyassignment\\controllers\\manufacturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AFF8536-2F98-4118-3A98-AD21DEADB958}|22JulyAssignment\\22JulyAssignment.csproj|solutionrelative:22julyassignment\\controllers\\manufacturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AFF8536-2F98-4118-3A98-AD21DEADB958}|22JulyAssignment\\22JulyAssignment.csproj|c:\\practical .net\\practice\\22julyassignment\\22julyassignment\\controllers\\automobilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AFF8536-2F98-4118-3A98-AD21DEADB958}|22JulyAssignment\\22JulyAssignment.csproj|solutionrelative:22julyassignment\\controllers\\automobilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AFF8536-2F98-4118-3A98-AD21DEADB958}|22JulyAssignment\\22JulyAssignment.csproj|c:\\practical .net\\practice\\22julyassignment\\22julyassignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AFF8536-2F98-4118-3A98-AD21DEADB958}|22JulyAssignment\\22JulyAssignment.csproj|solutionrelative:22julyassignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AFF8536-2F98-4118-3A98-AD21DEADB958}|22JulyAssignment\\22JulyAssignment.csproj|c:\\practical .net\\practice\\22julyassignment\\22julyassignment\\models\\manufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AFF8536-2F98-4118-3A98-AD21DEADB958}|22JulyAssignment\\22JulyAssignment.csproj|solutionrelative:22julyassignment\\models\\manufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\practical .net\\Practice\\22July\\22July\\Views\\Home\\Stationary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\practical .net\\Practice\\22July\\22July\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\practical .net\\Assignment\\21JulyAssignment\\21JulyAssignment\\Controllers\\EmployeeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\practical .net\\Practice\\22July\\22July\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\22JulyAssignment\\22JulyAssignment\\Views\\Manufacturer\\Details.cshtml",
+              "RelativeDocumentMoniker": "22JulyAssignment\\Views\\Manufacturer\\Details.cshtml",
+              "ToolTip": "C:\\practical .net\\Practice\\22JulyAssignment\\22JulyAssignment\\Views\\Manufacturer\\Details.cshtml",
+              "RelativeToolTip": "22JulyAssignment\\Views\\Manufacturer\\Details.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T14:55:07.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\22JulyAssignment\\22JulyAssignment\\Views\\Manufacturer\\Display.cshtml",
+              "RelativeDocumentMoniker": "22JulyAssignment\\Views\\Manufacturer\\Display.cshtml",
+              "ToolTip": "C:\\practical .net\\Practice\\22JulyAssignment\\22JulyAssignment\\Views\\Manufacturer\\Display.cshtml",
+              "RelativeToolTip": "22JulyAssignment\\Views\\Manufacturer\\Display.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T14:55:27.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManufacturerController.cs",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\22JulyAssignment\\22JulyAssignment\\Controllers\\ManufacturerController.cs",
+              "RelativeDocumentMoniker": "22JulyAssignment\\Controllers\\ManufacturerController.cs",
+              "ToolTip": "C:\\practical .net\\Practice\\22JulyAssignment\\22JulyAssignment\\Controllers\\ManufacturerController.cs",
+              "RelativeToolTip": "22JulyAssignment\\Controllers\\ManufacturerController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T14:51:40.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\22JulyAssignment\\22JulyAssignment\\Views\\Automobile\\Register.cshtml",
+              "RelativeDocumentMoniker": "22JulyAssignment\\Views\\Automobile\\Register.cshtml",
+              "ToolTip": "C:\\practical .net\\Practice\\22JulyAssignment\\22JulyAssignment\\Views\\Automobile\\Register.cshtml",
+              "RelativeToolTip": "22JulyAssignment\\Views\\Automobile\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-22T16:21:34.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\22JulyAssignment\\22JulyAssignment\\Views\\Automobile\\Success.cshtml",
+              "RelativeDocumentMoniker": "22JulyAssignment\\Views\\Automobile\\Success.cshtml",
+              "ToolTip": "C:\\practical .net\\Practice\\22JulyAssignment\\22JulyAssignment\\Views\\Automobile\\Success.cshtml",
+              "RelativeToolTip": "22JulyAssignment\\Views\\Automobile\\Success.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T14:54:17.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Automobile.cs",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\22JulyAssignment\\22JulyAssignment\\Models\\Automobile.cs",
+              "RelativeDocumentMoniker": "22JulyAssignment\\Models\\Automobile.cs",
+              "ToolTip": "C:\\practical .net\\Practice\\22JulyAssignment\\22JulyAssignment\\Models\\Automobile.cs",
+              "RelativeToolTip": "22JulyAssignment\\Models\\Automobile.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T15:56:28.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AutomobileController.cs",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\22JulyAssignment\\22JulyAssignment\\Controllers\\AutomobileController.cs",
+              "RelativeDocumentMoniker": "22JulyAssignment\\Controllers\\AutomobileController.cs",
+              "ToolTip": "C:\\practical .net\\Practice\\22JulyAssignment\\22JulyAssignment\\Controllers\\AutomobileController.cs",
+              "RelativeToolTip": "22JulyAssignment\\Controllers\\AutomobileController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T15:54:36.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\22JulyAssignment\\22JulyAssignment\\Program.cs",
+              "RelativeDocumentMoniker": "22JulyAssignment\\Program.cs",
+              "ToolTip": "C:\\practical .net\\Practice\\22JulyAssignment\\22JulyAssignment\\Program.cs",
+              "RelativeToolTip": "22JulyAssignment\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T15:07:43.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Manufacturer.cs",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\22JulyAssignment\\22JulyAssignment\\Models\\Manufacturer.cs",
+              "RelativeDocumentMoniker": "22JulyAssignment\\Models\\Manufacturer.cs",
+              "ToolTip": "C:\\practical .net\\Practice\\22JulyAssignment\\22JulyAssignment\\Models\\Manufacturer.cs",
+              "RelativeToolTip": "22JulyAssignment\\Models\\Manufacturer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T14:25:08.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Stationary.cshtml",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\22July\\22July\\Views\\Home\\Stationary.cshtml",
+              "RelativeDocumentMoniker": "..\\22July\\22July\\Views\\Home\\Stationary.cshtml",
+              "ToolTip": "C:\\practical .net\\Practice\\22July\\22July\\Views\\Home\\Stationary.cshtml",
+              "RelativeToolTip": "..\\22July\\22July\\Views\\Home\\Stationary.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T14:45:11.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\practical .net\\Assignment\\21JulyAssignment\\21JulyAssignment\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "..\\..\\Assignment\\21JulyAssignment\\21JulyAssignment\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\practical .net\\Assignment\\21JulyAssignment\\21JulyAssignment\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "..\\..\\Assignment\\21JulyAssignment\\21JulyAssignment\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T14:38:32.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\22July\\22July\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\22July\\22July\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\practical .net\\Practice\\22July\\22July\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "..\\22July\\22July\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-22T16:23:36.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\22July\\22July\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "..\\22July\\22July\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\practical .net\\Practice\\22July\\22July\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "..\\22July\\22July\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T16:13:28.827Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

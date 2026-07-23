@@ -1,0 +1,41 @@
+﻿
+@model _22JulyAssignment.Models.Automobile
+
+<div class="text-center">
+    <h1 class="display-4">Automobile Management System</h1>
+    <h2>Automobile Registration</h2>
+
+</div>
+<form asp-controller="Automobile" asp-action="Register" method="post">
+    <div>
+        <label asp-for="VehicleId"></label>
+        <input asp-for="VehicleId" class="form-control" />
+        <span asp-validation-for="VehicleId" style="color:red"></span>
+    </div>
+    <br />
+    <div>
+        <label asp-for="VehicleName"></label>
+        <input asp-for="VehicleName" class="form-control" />
+        <span asp-validation-for="VehicleName" style="color:red"></span>
+    </div>
+    <br />
+    <div>
+        <label asp-for="Brand"></label>
+        <input asp-for="Brand" class="form-control" />
+        <span asp-validation-for="Brand" style="color:red"></span>
+    </div>
+    <br />
+    <div>
+        <label asp-for="ModelYear"></label>
+        <input asp-for="ModelYear" class="form-control" />
+        <span asp-validation-for="ModelYear" style="color:red"></span>
+    </div>
+    <div>
+        <label asp-for="FuelType"></label>
+        <input asp-for="FuelType" class="form-control" />
+        <span asp-validation-for="FuelType" style="color:red"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Register</button>
+    <br />
+</form>
+<div asp-validation-summary="All" style="color:red"></div>

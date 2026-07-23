@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\Documents\\GitHub\\.netpractical\\Practice\\23JulyAssignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C6410F1-C1D0-4BD6-AE0C-20AE6E8E4192}|23JulyAssignment\\23JulyAssignment.csproj|c:\\users\\hp\\documents\\github\\.netpractical\\practice\\23julyassignment\\23julyassignment\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C6410F1-C1D0-4BD6-AE0C-20AE6E8E4192}|23JulyAssignment\\23JulyAssignment.csproj|solutionrelative:23julyassignment\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C6410F1-C1D0-4BD6-AE0C-20AE6E8E4192}|23JulyAssignment\\23JulyAssignment.csproj|c:\\users\\hp\\documents\\github\\.netpractical\\practice\\23julyassignment\\23julyassignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C6410F1-C1D0-4BD6-AE0C-20AE6E8E4192}|23JulyAssignment\\23JulyAssignment.csproj|solutionrelative:23julyassignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C6410F1-C1D0-4BD6-AE0C-20AE6E8E4192}|23JulyAssignment\\23JulyAssignment.csproj|c:\\users\\hp\\documents\\github\\.netpractical\\practice\\23julyassignment\\23julyassignment\\controllers\\stationarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C6410F1-C1D0-4BD6-AE0C-20AE6E8E4192}|23JulyAssignment\\23JulyAssignment.csproj|solutionrelative:23julyassignment\\controllers\\stationarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C6410F1-C1D0-4BD6-AE0C-20AE6E8E4192}|23JulyAssignment\\23JulyAssignment.csproj|c:\\users\\hp\\documents\\github\\.netpractical\\practice\\23julyassignment\\23julyassignment\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C6410F1-C1D0-4BD6-AE0C-20AE6E8E4192}|23JulyAssignment\\23JulyAssignment.csproj|solutionrelative:23julyassignment\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C6410F1-C1D0-4BD6-AE0C-20AE6E8E4192}|23JulyAssignment\\23JulyAssignment.csproj|c:\\users\\hp\\documents\\github\\.netpractical\\practice\\23julyassignment\\23julyassignment\\views\\stationary\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C6410F1-C1D0-4BD6-AE0C-20AE6E8E4192}|23JulyAssignment\\23JulyAssignment.csproj|solutionrelative:23julyassignment\\views\\stationary\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\Documents\\GitHub\\.netpractical\\Practice\\23July\\23July\\Views\\Product\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C6410F1-C1D0-4BD6-AE0C-20AE6E8E4192}|23JulyAssignment\\23JulyAssignment.csproj|c:\\users\\hp\\documents\\github\\.netpractical\\practice\\23julyassignment\\23julyassignment\\models\\stationary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C6410F1-C1D0-4BD6-AE0C-20AE6E8E4192}|23JulyAssignment\\23JulyAssignment.csproj|solutionrelative:23julyassignment\\models\\stationary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\Documents\\GitHub\\.netpractical\\Practice\\23July\\23July\\Controllers\\ProductController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\GitHub\\.netpractical\\Practice\\23JulyAssignment\\23JulyAssignment\\Program.cs",
+              "RelativeDocumentMoniker": "23JulyAssignment\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\GitHub\\.netpractical\\Practice\\23JulyAssignment\\23JulyAssignment\\Program.cs",
+              "RelativeToolTip": "23JulyAssignment\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T13:48:03.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\GitHub\\.netpractical\\Practice\\23JulyAssignment\\23JulyAssignment\\Views\\Stationary\\Index.cshtml",
+              "RelativeDocumentMoniker": "23JulyAssignment\\Views\\Stationary\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\GitHub\\.netpractical\\Practice\\23JulyAssignment\\23JulyAssignment\\Views\\Stationary\\Index.cshtml",
+              "RelativeToolTip": "23JulyAssignment\\Views\\Stationary\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T13:44:46.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\GitHub\\.netpractical\\Practice\\23July\\23July\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\23July\\23July\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\GitHub\\.netpractical\\Practice\\23July\\23July\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "..\\23July\\23July\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T13:43:38.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\GitHub\\.netpractical\\Practice\\23JulyAssignment\\23JulyAssignment\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "23JulyAssignment\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\GitHub\\.netpractical\\Practice\\23JulyAssignment\\23JulyAssignment\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "23JulyAssignment\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T13:41:43.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Stationary.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\GitHub\\.netpractical\\Practice\\23JulyAssignment\\23JulyAssignment\\Models\\Stationary.cs",
+              "RelativeDocumentMoniker": "23JulyAssignment\\Models\\Stationary.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\GitHub\\.netpractical\\Practice\\23JulyAssignment\\23JulyAssignment\\Models\\Stationary.cs",
+              "RelativeToolTip": "23JulyAssignment\\Models\\Stationary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T13:37:50.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\GitHub\\.netpractical\\Practice\\23JulyAssignment\\23JulyAssignment\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "23JulyAssignment\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\GitHub\\.netpractical\\Practice\\23JulyAssignment\\23JulyAssignment\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "23JulyAssignment\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wBAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T13:30:00.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StationaryController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\GitHub\\.netpractical\\Practice\\23JulyAssignment\\23JulyAssignment\\Controllers\\StationaryController.cs",
+              "RelativeDocumentMoniker": "23JulyAssignment\\Controllers\\StationaryController.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\GitHub\\.netpractical\\Practice\\23JulyAssignment\\23JulyAssignment\\Controllers\\StationaryController.cs",
+              "RelativeToolTip": "23JulyAssignment\\Controllers\\StationaryController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T13:28:02.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\GitHub\\.netpractical\\Practice\\23July\\23July\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "..\\23July\\23July\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\GitHub\\.netpractical\\Practice\\23July\\23July\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "..\\23July\\23July\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T13:35:25.767Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

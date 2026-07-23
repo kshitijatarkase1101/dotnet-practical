@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\practical .net\\Practice\\21JulyAssignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB5090C-C8C9-229A-2429-68586B376EDD}|21JulyAssignment\\21JulyAssignment.csproj|c:\\practical .net\\practice\\21julyassignment\\21julyassignment\\views\\employee\\department.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAB5090C-C8C9-229A-2429-68586B376EDD}|21JulyAssignment\\21JulyAssignment.csproj|solutionrelative:21julyassignment\\views\\employee\\department.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB5090C-C8C9-229A-2429-68586B376EDD}|21JulyAssignment\\21JulyAssignment.csproj|c:\\practical .net\\practice\\21julyassignment\\21julyassignment\\views\\employee\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAB5090C-C8C9-229A-2429-68586B376EDD}|21JulyAssignment\\21JulyAssignment.csproj|solutionrelative:21julyassignment\\views\\employee\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB5090C-C8C9-229A-2429-68586B376EDD}|21JulyAssignment\\21JulyAssignment.csproj|c:\\practical .net\\practice\\21julyassignment\\21julyassignment\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB5090C-C8C9-229A-2429-68586B376EDD}|21JulyAssignment\\21JulyAssignment.csproj|solutionrelative:21julyassignment\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB5090C-C8C9-229A-2429-68586B376EDD}|21JulyAssignment\\21JulyAssignment.csproj|c:\\practical .net\\practice\\21julyassignment\\21julyassignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB5090C-C8C9-229A-2429-68586B376EDD}|21JulyAssignment\\21JulyAssignment.csproj|solutionrelative:21julyassignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB5090C-C8C9-229A-2429-68586B376EDD}|21JulyAssignment\\21JulyAssignment.csproj|c:\\practical .net\\practice\\21julyassignment\\21julyassignment\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB5090C-C8C9-229A-2429-68586B376EDD}|21JulyAssignment\\21JulyAssignment.csproj|solutionrelative:21julyassignment\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB5090C-C8C9-229A-2429-68586B376EDD}|21JulyAssignment\\21JulyAssignment.csproj|c:\\practical .net\\practice\\21julyassignment\\21julyassignment\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB5090C-C8C9-229A-2429-68586B376EDD}|21JulyAssignment\\21JulyAssignment.csproj|solutionrelative:21julyassignment\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\practical .net\\Practice\\22July\\22July\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\21JulyAssignment\\21JulyAssignment\\Program.cs",
+              "RelativeDocumentMoniker": "21JulyAssignment\\Program.cs",
+              "ToolTip": "C:\\practical .net\\Practice\\21JulyAssignment\\21JulyAssignment\\Program.cs",
+              "RelativeToolTip": "21JulyAssignment\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T03:35:58.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Department.cshtml",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\21JulyAssignment\\21JulyAssignment\\Views\\Employee\\Department.cshtml",
+              "RelativeDocumentMoniker": "21JulyAssignment\\Views\\Employee\\Department.cshtml",
+              "ToolTip": "C:\\practical .net\\Practice\\21JulyAssignment\\21JulyAssignment\\Views\\Employee\\Department.cshtml",
+              "RelativeToolTip": "21JulyAssignment\\Views\\Employee\\Department.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T02:58:31.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\21JulyAssignment\\21JulyAssignment\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "21JulyAssignment\\Models\\Department.cs",
+              "ToolTip": "C:\\practical .net\\Practice\\21JulyAssignment\\21JulyAssignment\\Models\\Department.cs",
+              "RelativeToolTip": "21JulyAssignment\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T14:11:53.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\21JulyAssignment\\21JulyAssignment\\Views\\Employee\\Register.cshtml",
+              "RelativeDocumentMoniker": "21JulyAssignment\\Views\\Employee\\Register.cshtml",
+              "ToolTip": "C:\\practical .net\\Practice\\21JulyAssignment\\21JulyAssignment\\Views\\Employee\\Register.cshtml",
+              "RelativeToolTip": "21JulyAssignment\\Views\\Employee\\Register.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-22T12:51:30.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\21JulyAssignment\\21JulyAssignment\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "21JulyAssignment\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\practical .net\\Practice\\21JulyAssignment\\21JulyAssignment\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "21JulyAssignment\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA0wBkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T12:40:25.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\22July\\22July\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\22July\\22July\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\practical .net\\Practice\\22July\\22July\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "..\\22July\\22July\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-22T12:53:53.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\21JulyAssignment\\21JulyAssignment\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "21JulyAssignment\\Models\\Employee.cs",
+              "ToolTip": "C:\\practical .net\\Practice\\21JulyAssignment\\21JulyAssignment\\Models\\Employee.cs",
+              "RelativeToolTip": "21JulyAssignment\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T12:36:00.07Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -13,7 +13,7 @@ class Exceptioneg
         }
         Console.WriteLine("Can attend placement drive");
     }
-   /* static void Main()
+   static void Main()
     {
         try
         {
@@ -38,5 +38,5 @@ class Exceptioneg
         }
 
 
-    }*/
+    }
 }

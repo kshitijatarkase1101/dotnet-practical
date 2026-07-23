@@ -1,0 +1,40 @@
+﻿@model _22JulyAssignment.Models.Manufacturer
+
+<h2>Manufacturer Details</h2>
+
+<form asp-action="Details" method="post">
+
+    <label asp-for="Name"></label>
+    <input asp-for="Name" class="form-control" />
+    <span asp-validation-for="Name" class="text-danger"></span>
+
+    <br />
+
+    <label asp-for="Country"></label>
+    <input asp-for="Country" class="form-control" />
+    <span asp-validation-for="Country" class="text-danger"></span>
+
+    <br />
+
+    <label asp-for="ContactNumber"></label>
+    <input asp-for="ContactNumber" class="form-control" />
+    <span asp-validation-for="ContactNumber" class="text-danger"></span>
+
+    <br />
+
+    <label asp-for="Email"></label>
+    <input asp-for="Email" class="form-control" />
+    <span asp-validation-for="Email" class="text-danger"></span>
+
+    <br /><br />
+
+    <input type="submit" value="Submit" class="btn btn-primary" />
+
+</form>
+
+@section Scripts
+{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
