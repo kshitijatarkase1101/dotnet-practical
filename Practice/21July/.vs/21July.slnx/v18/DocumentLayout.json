@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\Practical.net\\Practice\\21July\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8577A194-A8C4-DCDA-31AF-A3BE422C466E}|21July\\21July.csproj|c:\\users\\hp\\practical.net\\practice\\21july\\21july\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8577A194-A8C4-DCDA-31AF-A3BE422C466E}|21July\\21July.csproj|solutionrelative:21july\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8577A194-A8C4-DCDA-31AF-A3BE422C466E}|21July\\21July.csproj|c:\\users\\hp\\practical.net\\practice\\21july\\21july\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8577A194-A8C4-DCDA-31AF-A3BE422C466E}|21July\\21July.csproj|solutionrelative:21july\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8577A194-A8C4-DCDA-31AF-A3BE422C466E}|21July\\21July.csproj|c:\\users\\hp\\practical.net\\practice\\21july\\21july\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8577A194-A8C4-DCDA-31AF-A3BE422C466E}|21July\\21July.csproj|solutionrelative:21july\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8577A194-A8C4-DCDA-31AF-A3BE422C466E}|21July\\21July.csproj|c:\\users\\hp\\practical.net\\practice\\21july\\21july\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8577A194-A8C4-DCDA-31AF-A3BE422C466E}|21July\\21July.csproj|solutionrelative:21july\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8577A194-A8C4-DCDA-31AF-A3BE422C466E}|21July\\21July.csproj|c:\\users\\hp\\practical.net\\practice\\21july\\21july\\views\\home\\schedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8577A194-A8C4-DCDA-31AF-A3BE422C466E}|21July\\21July.csproj|solutionrelative:21july\\views\\home\\schedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8577A194-A8C4-DCDA-31AF-A3BE422C466E}|21July\\21July.csproj|c:\\users\\hp\\practical.net\\practice\\21july\\21july\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8577A194-A8C4-DCDA-31AF-A3BE422C466E}|21July\\21July.csproj|solutionrelative:21july\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Practical.net\\Practice\\21July\\21July\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "21July\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\hp\\Practical.net\\Practice\\21July\\21July\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "21July\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T04:51:48.486Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Practical.net\\Practice\\21July\\21July\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "21July\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\hp\\Practical.net\\Practice\\21July\\21July\\Models\\Student.cs",
+              "RelativeToolTip": "21July\\Models\\Student.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T04:27:26.775Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Schedule.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Practical.net\\Practice\\21July\\21July\\Views\\Home\\Schedule.cshtml",
+              "RelativeDocumentMoniker": "21July\\Views\\Home\\Schedule.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Practical.net\\Practice\\21July\\21July\\Views\\Home\\Schedule.cshtml",
+              "RelativeToolTip": "21July\\Views\\Home\\Schedule.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-21T06:18:40.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Practical.net\\Practice\\21July\\21July\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "21July\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\hp\\Practical.net\\Practice\\21July\\21July\\Models\\Course.cs",
+              "RelativeToolTip": "21July\\Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T05:54:01.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Practical.net\\Practice\\21July\\21July\\Program.cs",
+              "RelativeDocumentMoniker": "21July\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Practical.net\\Practice\\21July\\21July\\Program.cs",
+              "RelativeToolTip": "21July\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T05:37:37.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Practical.net\\Practice\\21July\\21July\\Views\\Home\\Register.cshtml",
+              "RelativeDocumentMoniker": "21July\\Views\\Home\\Register.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Practical.net\\Practice\\21July\\21July\\Views\\Home\\Register.cshtml",
+              "RelativeToolTip": "21July\\Views\\Home\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-21T04:59:40.224Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
