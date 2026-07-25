@@ -1,0 +1,28 @@
+﻿@model _24July.Models.Student
+
+
+<div class="text-center">
+    <h1 class="display-4">Login</h1>
+    
+</div>
+
+<form asp-action="Index" method="post">
+    <div>
+        <label asp-for="Username"></label><br/>
+        <input asp-for="Username" class="form-control"/>
+        <span asp-validation-for="Username" class="text-danger"></span>
+
+    </div>
+
+    <div>
+        <label asp-for="Password"></label><br />
+        <input asp-for="Password" class="form-control" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+
+    </div>
+    <br/>
+
+    <button type="submit" class="btn btn-primary">LOGIN</button>
+
+</form>
+<span style="color:red">@ViewBag.Error</span>

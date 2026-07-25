@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\practical .net\\Practice\\25 July\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{65292070-D5F4-2439-11C5-3068E391C287}|25 July\\25 July.csproj|c:\\practical .net\\practice\\25 july\\25 july\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65292070-D5F4-2439-11C5-3068E391C287}|25 July\\25 July.csproj|solutionrelative:25 july\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65292070-D5F4-2439-11C5-3068E391C287}|25 July\\25 July.csproj|c:\\practical .net\\practice\\25 july\\25 july\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65292070-D5F4-2439-11C5-3068E391C287}|25 July\\25 July.csproj|solutionrelative:25 july\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65292070-D5F4-2439-11C5-3068E391C287}|25 July\\25 July.csproj|c:\\practical .net\\practice\\25 july\\25 july\\25 july.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{65292070-D5F4-2439-11C5-3068E391C287}|25 July\\25 July.csproj|solutionrelative:25 july\\25 july.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65292070-D5F4-2439-11C5-3068E391C287}|25 July\\25 July.csproj|c:\\practical .net\\practice\\25 july\\25 july\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65292070-D5F4-2439-11C5-3068E391C287}|25 July\\25 July.csproj|solutionrelative:25 july\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\25 July\\25 July\\Program.cs",
+              "RelativeDocumentMoniker": "25 July\\Program.cs",
+              "ToolTip": "C:\\practical .net\\Practice\\25 July\\25 July\\Program.cs",
+              "RelativeToolTip": "25 July\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T05:15:36.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\25 July\\25 July\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "25 July\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\practical .net\\Practice\\25 July\\25 July\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "25 July\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T05:01:07.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "25 July.csproj",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\25 July\\25 July\\25 July.csproj",
+              "RelativeDocumentMoniker": "25 July\\25 July.csproj",
+              "ToolTip": "C:\\practical .net\\Practice\\25 July\\25 July\\25 July.csproj",
+              "RelativeToolTip": "25 July\\25 July.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-25T05:22:55.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\25 July\\25 July\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "25 July\\Models\\Student.cs",
+              "ToolTip": "C:\\practical .net\\Practice\\25 July\\25 July\\Models\\Student.cs",
+              "RelativeToolTip": "25 July\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T04:57:54.537Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

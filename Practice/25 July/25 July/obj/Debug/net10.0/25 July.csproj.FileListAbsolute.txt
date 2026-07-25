@@ -1,0 +1,38 @@
+C:\practical .net\Practice\25 July\25 July\bin\Debug\net10.0\appsettings.Development.json
+C:\practical .net\Practice\25 July\25 July\bin\Debug\net10.0\appsettings.json
+C:\practical .net\Practice\25 July\25 July\bin\Debug\net10.0\25 July.staticwebassets.endpoints.json
+C:\practical .net\Practice\25 July\25 July\bin\Debug\net10.0\25 July.exe
+C:\practical .net\Practice\25 July\25 July\bin\Debug\net10.0\25 July.deps.json
+C:\practical .net\Practice\25 July\25 July\bin\Debug\net10.0\25 July.runtimeconfig.json
+C:\practical .net\Practice\25 July\25 July\bin\Debug\net10.0\25 July.dll
+C:\practical .net\Practice\25 July\25 July\bin\Debug\net10.0\25 July.pdb
+C:\practical .net\Practice\25 July\25 July\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\practical .net\Practice\25 July\25 July\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\practical .net\Practice\25 July\25 July\obj\Debug\net10.0\25 July.csproj.AssemblyReference.cache
+C:\practical .net\Practice\25 July\25 July\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\practical .net\Practice\25 July\25 July\obj\Debug\net10.0\25 July.GeneratedMSBuildEditorConfig.editorconfig
+C:\practical .net\Practice\25 July\25 July\obj\Debug\net10.0\25 July.AssemblyInfoInputs.cache
+C:\practical .net\Practice\25 July\25 July\obj\Debug\net10.0\25 July.AssemblyInfo.cs
+C:\practical .net\Practice\25 July\25 July\obj\Debug\net10.0\25 July.csproj.CoreCompileInputs.cache
+C:\practical .net\Practice\25 July\25 July\obj\Debug\net10.0\25 July.MvcApplicationPartsAssemblyInfo.cs
+C:\practical .net\Practice\25 July\25 July\obj\Debug\net10.0\25 July.MvcApplicationPartsAssemblyInfo.cache
+C:\practical .net\Practice\25 July\25 July\obj\Debug\net10.0\25 July.sourcelink.json
+C:\practical .net\Practice\25 July\25 July\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\practical .net\Practice\25 July\25 July\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\practical .net\Practice\25 July\25 July\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\practical .net\Practice\25 July\25 July\obj\Debug\net10.0\scopedcss\bundle\25 July.styles.css
+C:\practical .net\Practice\25 July\25 July\obj\Debug\net10.0\staticwebassets.build.json
+C:\practical .net\Practice\25 July\25 July\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\practical .net\Practice\25 July\25 July\obj\Debug\net10.0\staticwebassets.development.json
+C:\practical .net\Practice\25 July\25 July\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\practical .net\Practice\25 July\25 July\obj\Debug\net10.0\swae.build.ex.cache
+C:\practical .net\Practice\25 July\25 July\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\practical .net\Practice\25 July\25 July\obj\Debug\net10.0\25 July.csproj.Up2Date
+C:\practical .net\Practice\25 July\25 July\obj\Debug\net10.0\25 July.dll
+C:\practical .net\Practice\25 July\25 July\obj\Debug\net10.0\refint\25 July.dll
+C:\practical .net\Practice\25 July\25 July\obj\Debug\net10.0\25 July.pdb
+C:\practical .net\Practice\25 July\25 July\obj\Debug\net10.0\25 July.genruntimeconfig.cache
+C:\practical .net\Practice\25 July\25 July\obj\Debug\net10.0\ref\25 July.dll
+C:\practical .net\Practice\25 July\25 July\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\practical .net\Practice\25 July\25 July\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\practical .net\Practice\25 July\25 July\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
