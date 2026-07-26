@@ -11,6 +11,11 @@ class Program
         PaymentManager paymentManager = new PaymentManager();
         ReportManager reportManager = new ReportManager(customerManager, productManager, orderManager);
 
+
+        bool exit = false;
+
+        while(!exit){
+      
         Console.WriteLine("=================================");
         Console.WriteLine("       Welcome To ShopEase");
         Console.WriteLine("=================================");
@@ -26,13 +31,15 @@ class Program
         {
             case 1:
 
+                
+
                 Console.Write("Enter Username : ");
                 string uname = Console.ReadLine();
 
                 Console.Write("Enter Password : ");
                 int pass = Convert.ToInt32(Console.ReadLine());
 
-                if (uname == "admin" && pass == 123)
+                if (uname == "admin" && pass == 123 )
                 {
                     Console.WriteLine("\nAdmin Login Successful");
 
@@ -155,8 +162,13 @@ class Program
             case 2:
 
                 customerManager.RegisterCustomer();
+                Console.WriteLine("Registration Successful!");
+                Console.WriteLine("Press any key to return to Main Menu...");
+                Console.ReadKey();
+                Console.Clear();
+                 break;
 
-                break;
+                
 
             case 3:
 
@@ -193,18 +205,24 @@ class Program
                             break;
                     }
                 }
-
+                Console.ReadKey();
+                Console.Clear();
                 break;
 
-            case 4:
+                
 
+            case 4:
+                exit = true;
                 Console.WriteLine("Thank You For Using ShopEase");
                 break;
 
             default:
 
                 Console.WriteLine("Invalid Choice");
+                Console.ReadKey();
+                Console.Clear();
                 break;
         }
+    }
     }
 }

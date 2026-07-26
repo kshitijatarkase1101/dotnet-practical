@@ -10,7 +10,7 @@ public class Invoice
         Console.WriteLine("\n=========== SHOPEASE ===========");
         Console.WriteLine($"Invoice ID : {InvoiceId}");
         Console.WriteLine($"Order ID   : {Order.OrderId}");
-        Console.WriteLine($"Customer   : {Order.Customer.Name}");
+        Console.WriteLine($"Customer   : {Order.Customer.CustomerName}");
         Console.WriteLine($"Date       : {Order.OrderDate}");
 
         Console.WriteLine("\nItems");

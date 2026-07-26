@@ -13,8 +13,8 @@ class Vehicle
     public int Price {get; set;}
     public int Year{ get; set;}
     
-    double Discount=0;
-    double FinalPrice=0;
+
+    
 
     
      
@@ -23,15 +23,23 @@ class Vehicle
     { 
         Console.WriteLine("Enter Vehicle ID:");
         int id =Convert.ToInt32(Console.ReadLine());  
-        foreach(Vehicle v in vehicles){
-            if (v.VehicleID == id)
+        bool found = false;
+        foreach(Vehicle item in vehicles)
+        {
+            if (item.VehicleID == id)
             {
-                Console.WriteLine("Vehicle already exists");
+                found=true;
                 break;
             }
-            else{
-        Console.WriteLine("Enter Vehicle ID:");
-        v.VehicleID =Convert.ToInt32(Console.ReadLine());
+        }
+        if (found)
+        {
+            Console.WriteLine("Vehicle already exists");
+        }
+        else
+        {
+            Vehicle v= new Vehicle();
+       v.VehicleID= id;
         Console.WriteLine("Enter Vehicle Name:");
         v.VehicleName =Console.ReadLine();
         Console.WriteLine("Enter Vehicle Type:");
@@ -44,8 +52,8 @@ class Vehicle
         v.Year=Convert.ToInt32(Console.ReadLine());
 
         vehicles.Add(v);
-        break;
-            }
+        Console.WriteLine("Vehicle added successfully");
+            
     }
     }
 
@@ -133,8 +141,13 @@ if(found!=null)
     {
         Console.WriteLine("Enter Vehicle ID:");
         int id = Convert.ToInt32(Console.ReadLine());
+        bool found = false;
         foreach(Vehicle v in vehicles)
         {
+            if (v.VehicleID == id)
+            {
+            found= true;
+            double Discount = 0;
             
         
         if (v.Type == "Car")
@@ -150,13 +163,19 @@ if(found!=null)
             Discount= v.Price*0.12;
         }
 
-        FinalPrice =v.Price-Discount;
+       double FinalPrice =v.Price-Discount;
        Console.WriteLine($"Vehicle Price:{v.Price}");
        Console.WriteLine($"Discount:{Discount}");
        Console.WriteLine($"Final Price:{FinalPrice}");
-
+       break;
         
-        }   
+        } 
+        }
+
+      if(!found)
+        {
+            Console.WriteLine("Vehicle not found");
+        }  
     }
 
 

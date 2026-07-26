@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\Practical.net\\Practice\\16JulyAssignment\\16JulyAssignment\\16JulyAssignment.csproj",
+      "projectUniqueName": "C:\\practical .net\\Assignment\\16JulyAssignment\\16JulyAssignment\\16JulyAssignment.csproj",
       "projectName": "16JulyAssignment",
-      "projectPath": "C:\\Users\\hp\\Practical.net\\Practice\\16JulyAssignment\\16JulyAssignment\\16JulyAssignment.csproj",
+      "projectPath": "C:\\practical .net\\Assignment\\16JulyAssignment\\16JulyAssignment\\16JulyAssignment.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\Practical.net\\Practice\\16JulyAssignment\\16JulyAssignment\\obj\\",
+      "outputPath": "C:\\practical .net\\Assignment\\16JulyAssignment\\16JulyAssignment\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

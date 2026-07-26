@@ -3,35 +3,41 @@ using System.Collections.Generic;
 
 public class CartManager
 {
-    double couponDiscount = 0;
-    public void AddToCart(Customer customer, Product product, int quantity)
+    // Add Product to Cart
+    public void AddToCart(Customer customer, Product product)
     {
-        if (product == null)
-        {
-            Console.WriteLine("Product Not Found.");
-            return;
-        }
-
-        if (quantity > product.Quantity)
-        {
-            Console.WriteLine("Insufficient Stock.");
-            return;
-        }
-
         foreach (CartItem item in customer.Cart)
         {
             if (item.Product.ProductId == product.ProductId)
             {
-                item.Quantity += quantity;
+                Console.Write("Enter Quantity : ");
+                int qty = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine("Cart Updated Successfully.");
+                if (qty <= product.Quantity)
+                {
+                    item.Quantity += qty;
+                    Console.WriteLine("Quantity Updated.");
+                }
+                else
+                {
+                    Console.WriteLine("Not Enough Stock.");
+                }
                 return;
             }
         }
 
         CartItem cartItem = new CartItem();
+
         cartItem.Product = product;
-        cartItem.Quantity = quantity;
+
+        Console.Write("Enter Quantity : ");
+        cartItem.Quantity = Convert.ToInt32(Console.ReadLine());
+
+        if (cartItem.Quantity > product.Quantity)
+        {
+            Console.WriteLine("Not Enough Stock.");
+            return;
+        }
 
         customer.Cart.Add(cartItem);
 
@@ -43,19 +49,19 @@ public class CartManager
     {
         if (customer.Cart.Count == 0)
         {
-            Console.WriteLine("Cart Is Empty.");
+            Console.WriteLine("Cart is Empty.");
             return;
         }
 
-        Console.WriteLine("\n--------- CART ---------");
+        Console.WriteLine("\n===== SHOPPING CART =====");
 
         foreach (CartItem item in customer.Cart)
         {
             item.Display();
         }
 
-        Console.WriteLine("------------------------");
-        Console.WriteLine("Total : ₹" + CalculateTotal(customer));
+        Console.WriteLine("----------------------------");
+        Console.WriteLine("Total : ₹" + GetTotal(customer));
     }
 
     // Remove Item
@@ -64,26 +70,25 @@ public class CartManager
         Console.Write("Enter Product ID : ");
         int id = Convert.ToInt32(Console.ReadLine());
 
-        CartItem itemToRemove = null;
+        CartItem removeItem = null;
 
         foreach (CartItem item in customer.Cart)
         {
             if (item.Product.ProductId == id)
             {
-                itemToRemove = item;
+                removeItem = item;
                 break;
             }
         }
 
-        if (itemToRemove != null)
+        if (removeItem != null)
         {
-            customer.Cart.Remove(itemToRemove);
-
+            customer.Cart.Remove(removeItem);
             Console.WriteLine("Item Removed.");
         }
         else
         {
-            Console.WriteLine("Product Not Found In Cart.");
+            Console.WriteLine("Product Not Found.");
         }
     }
 
@@ -98,9 +103,18 @@ public class CartManager
             if (item.Product.ProductId == id)
             {
                 Console.Write("Enter New Quantity : ");
-                item.Quantity = Convert.ToInt32(Console.ReadLine());
+                int qty = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine("Quantity Updated.");
+                if (qty <= item.Product.Quantity)
+                {
+                    item.Quantity = qty;
+                    Console.WriteLine("Quantity Updated.");
+                }
+                else
+                {
+                    Console.WriteLine("Stock Not Available.");
+                }
+
                 return;
             }
         }
@@ -117,7 +131,7 @@ public class CartManager
     }
 
     // Calculate Total
-    public double CalculateTotal(Customer customer)
+    public double GetTotal(Customer customer)
     {
         double total = 0;
 
@@ -129,64 +143,48 @@ public class CartManager
         return total;
     }
 
-    // Apply Coupon
-    public double ApplyCoupon(Customer customer, string couponCode)
+    // Checkout Summary
+    public void ViewTotal(Customer customer)
     {
-        double total = CalculateTotal(customer);
+        double total = GetTotal(customer);
 
-        switch (couponCode.ToUpper())
+        double discount = total * 0.05;
+
+        double gst = (total - discount) * 0.18;
+
+        double grandTotal = total - discount + gst;
+
+        Console.WriteLine();
+        Console.WriteLine("========== BILL ==========");
+        Console.WriteLine("Total        : ₹" + total);
+        Console.WriteLine("Discount (5%): ₹" + discount);
+        Console.WriteLine("GST (18%)    : ₹" + gst);
+        Console.WriteLine("Grand Total  : ₹" + grandTotal);
+    }
+
+    // Apply Coupon
+    public void ApplyCoupon(Customer customer)
+    {
+        Console.Write("Enter Coupon Code : ");
+        string coupon = Console.ReadLine();
+
+        double total = GetTotal(customer);
+
+        if (coupon == "SAVE10")
         {
-            case "SAVE10":
-                Console.WriteLine("10% Discount Applied.");
-                return total * 0.10;
-
-            case "SAVE20":
-                Console.WriteLine("20% Discount Applied.");
-                return total * 0.20;
-
-            default:
-                Console.WriteLine("Invalid Coupon.");
-                return 0;
+            total = total - (total * 10 / 100);
+            Console.WriteLine("Coupon Applied Successfully.");
+            Console.WriteLine("Amount After Discount : ₹" + total);
+        }
+        else if (coupon == "SAVE20")
+        {
+            total = total - (total * 20 / 100);
+            Console.WriteLine("Coupon Applied Successfully.");
+            Console.WriteLine("Amount After Discount : ₹" + total);
+        }
+        else
+        {
+            Console.WriteLine("Invalid Coupon Code.");
         }
     }
-
-    // GST Calculation
-    public double CalculateGST(Customer customer)
-    {
-        return CalculateTotal(customer) * 0.18;
-    }
-
-    // Grand Total
-    public double CalculateGrandTotal(Customer customer, double discount)
-    {
-        
-        double total = GetTotal();
-
-        double discount = total * couponDiscount / 100;
-
-double gst = (total - discount) * 0.18;
-
-double grandTotal = total - discount + gst;
-    }
-    public void ApplyCoupon()
-{
-    Console.Write("Enter Coupon Code : ");
-    string code = Console.ReadLine();
-
-    if(code == "SAVE10")
-    {
-        couponDiscount = 10;
-        Console.WriteLine("10% Discount Applied.");
-    }
-    else if(code == "SAVE20")
-    {
-        couponDiscount = 20;
-        Console.WriteLine("20% Discount Applied.");
-    }
-    else
-    {
-        couponDiscount = 0;
-        Console.WriteLine("Invalid Coupon.");
-    }
-}
 }
