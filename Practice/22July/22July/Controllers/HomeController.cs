@@ -6,7 +6,7 @@ namespace _22July.Controllers
 {
     public class HomeController : Controller
     {
-       
+
 
         public IActionResult Stationary()
         {
@@ -19,7 +19,7 @@ namespace _22July.Controllers
         {
             if (ModelState.IsValid)
             {
-                return Content($"Stationary ID : {stationary.Id} , " + $"Stationary Name: {stationary.Name} , " + $"Price : {stationary.Price}," + $"Quantity: {stationary.Quantity}," );
+                return Content($"Stationary ID : {stationary.Id} , " + $"Stationary Name: {stationary.Name} , " + $"Price : {stationary.Price}," + $"Quantity: {stationary.Quantity},");
             }
             return View(stationary);
         }

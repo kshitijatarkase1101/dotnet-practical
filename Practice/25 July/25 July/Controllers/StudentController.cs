@@ -13,7 +13,7 @@ namespace _25_July.Controllers
             new Student
             {
                 id=1 ,
-                Name="KShitija",
+                Name="Kshitija",
                 Age=20,
                 Department="IT",
             },
