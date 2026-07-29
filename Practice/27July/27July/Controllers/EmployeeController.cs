@@ -57,9 +57,9 @@ namespace _27July.Controllers
             return Ok(employee1);
         }
 
-        
 
-        
+
+
 
         [HttpGet("Dept/{dept}")]
 
@@ -98,4 +98,4 @@ namespace _27July.Controllers
             return Ok(result);
         }
     }
-    }
+}
