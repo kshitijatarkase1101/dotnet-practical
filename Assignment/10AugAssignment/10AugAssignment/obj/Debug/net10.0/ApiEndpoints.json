@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "_10AugAssignment.Controllers.PurchaseController",
+    "Method": "Get",
+    "RelativePath": "api/Purchase",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_10AugAssignment.Controllers.PurchaseController",
+    "Method": "Create",
+    "RelativePath": "api/Purchase",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "purchase",
+        "Type": "_10AugAssignment.Models.Purchase",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_10AugAssignment.Controllers.PurchaseController",
+    "Method": "GetId",
+    "RelativePath": "api/Purchase/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
