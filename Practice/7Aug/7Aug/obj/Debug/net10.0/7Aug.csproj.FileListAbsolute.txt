@@ -1,0 +1,9 @@
+C:\practical .net\Practice\7Aug\7Aug\obj\Debug\net10.0\7Aug.csproj.AssemblyReference.cache
+C:\practical .net\Practice\7Aug\7Aug\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\practical .net\Practice\7Aug\7Aug\obj\Debug\net10.0\7Aug.GeneratedMSBuildEditorConfig.editorconfig
+C:\practical .net\Practice\7Aug\7Aug\obj\Debug\net10.0\7Aug.AssemblyInfoInputs.cache
+C:\practical .net\Practice\7Aug\7Aug\obj\Debug\net10.0\7Aug.AssemblyInfo.cs
+C:\practical .net\Practice\7Aug\7Aug\obj\Debug\net10.0\7Aug.csproj.CoreCompileInputs.cache
+C:\practical .net\Practice\7Aug\7Aug\obj\Debug\net10.0\7Aug.MvcApplicationPartsAssemblyInfo.cs
+C:\practical .net\Practice\7Aug\7Aug\obj\Debug\net10.0\7Aug.MvcApplicationPartsAssemblyInfo.cache
+C:\practical .net\Practice\7Aug\7Aug\obj\Debug\net10.0\7Aug.sourcelink.json

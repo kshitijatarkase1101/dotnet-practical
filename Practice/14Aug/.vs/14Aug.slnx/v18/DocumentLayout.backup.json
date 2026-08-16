@@ -1,0 +1,291 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\practical .net\\Practice\\14Aug\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|c:\\practical .net\\practice\\14aug\\14aug\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|solutionrelative:14aug\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|c:\\practical .net\\practice\\14aug\\14aug\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|solutionrelative:14aug\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|c:\\practical .net\\practice\\14aug\\14aug\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|solutionrelative:14aug\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\practical .net\\Practice\\10Aug\\10Aug\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\practical .net\\Practice\\10Aug\\10Aug\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|c:\\practical .net\\practice\\14aug\\14aug\\repository\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|solutionrelative:14aug\\repository\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|c:\\practical .net\\practice\\14aug\\14aug\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|solutionrelative:14aug\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|c:\\practical .net\\practice\\14aug\\14aug\\dto\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|solutionrelative:14aug\\dto\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|c:\\practical .net\\practice\\14aug\\14aug\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|solutionrelative:14aug\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|c:\\practical .net\\practice\\14aug\\14aug\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|solutionrelative:14aug\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|c:\\practical .net\\practice\\14aug\\14aug\\repository\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|solutionrelative:14aug\\repository\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|c:\\practical .net\\practice\\14aug\\14aug\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|solutionrelative:14aug\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|c:\\practical .net\\practice\\14aug\\14aug\\models\\customerproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|solutionrelative:14aug\\models\\customerproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|c:\\practical .net\\practice\\14aug\\14aug\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|solutionrelative:14aug\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|c:\\practical .net\\practice\\14aug\\14aug\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|solutionrelative:14aug\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|c:\\practical .net\\practice\\14aug\\14aug\\dto\\customerproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|solutionrelative:14aug\\dto\\customerproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|c:\\practical .net\\practice\\14aug\\14aug\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DE46288B-05CA-A61F-24BB-D294E4E674EA}|14Aug\\14Aug.csproj|solutionrelative:14aug\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\14Aug\\14Aug\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "14Aug\\Services\\ProductService.cs",
+              "ToolTip": "C:\\practical .net\\Practice\\14Aug\\14Aug\\Services\\ProductService.cs",
+              "RelativeToolTip": "14Aug\\Services\\ProductService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T05:16:37.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\14Aug\\14Aug\\Program.cs",
+              "RelativeDocumentMoniker": "14Aug\\Program.cs",
+              "ToolTip": "C:\\practical .net\\Practice\\14Aug\\14Aug\\Program.cs",
+              "RelativeToolTip": "14Aug\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T05:54:58.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\14Aug\\14Aug\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "14Aug\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\practical .net\\Practice\\14Aug\\14Aug\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "14Aug\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T04:42:01.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\14Aug\\14Aug\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "14Aug\\Services\\CustomerService.cs",
+              "ToolTip": "C:\\practical .net\\Practice\\14Aug\\14Aug\\Services\\CustomerService.cs",
+              "RelativeToolTip": "14Aug\\Services\\CustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T05:06:44.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\14Aug\\14Aug\\Repository\\IProductService.cs",
+              "RelativeDocumentMoniker": "14Aug\\Repository\\IProductService.cs",
+              "ToolTip": "C:\\practical .net\\Practice\\14Aug\\14Aug\\Repository\\IProductService.cs",
+              "RelativeToolTip": "14Aug\\Repository\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T05:13:09.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerDto.cs",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\14Aug\\14Aug\\DTO\\CustomerDto.cs",
+              "RelativeDocumentMoniker": "14Aug\\DTO\\CustomerDto.cs",
+              "ToolTip": "C:\\practical .net\\Practice\\14Aug\\14Aug\\DTO\\CustomerDto.cs",
+              "RelativeToolTip": "14Aug\\DTO\\CustomerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T04:55:38.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\14Aug\\14Aug\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "14Aug\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\practical .net\\Practice\\14Aug\\14Aug\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "14Aug\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T05:21:53.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\14Aug\\14Aug\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "14Aug\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\practical .net\\Practice\\14Aug\\14Aug\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "14Aug\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwB8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T05:30:08.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\14Aug\\14Aug\\Repository\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "14Aug\\Repository\\ICustomerService.cs",
+              "ToolTip": "C:\\practical .net\\Practice\\14Aug\\14Aug\\Repository\\ICustomerService.cs",
+              "RelativeToolTip": "14Aug\\Repository\\ICustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T05:04:45.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\14Aug\\14Aug\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "14Aug\\Models\\Product.cs",
+              "ToolTip": "C:\\practical .net\\Practice\\14Aug\\14Aug\\Models\\Product.cs",
+              "RelativeToolTip": "14Aug\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T04:36:16.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomerProduct.cs",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\14Aug\\14Aug\\Models\\CustomerProduct.cs",
+              "RelativeDocumentMoniker": "14Aug\\Models\\CustomerProduct.cs",
+              "ToolTip": "C:\\practical .net\\Practice\\14Aug\\14Aug\\Models\\CustomerProduct.cs",
+              "RelativeToolTip": "14Aug\\Models\\CustomerProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T04:37:54.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\14Aug\\14Aug\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "14Aug\\Models\\Customer.cs",
+              "ToolTip": "C:\\practical .net\\Practice\\14Aug\\14Aug\\Models\\Customer.cs",
+              "RelativeToolTip": "14Aug\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T04:32:55.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\14Aug\\14Aug\\DTO\\ProductDto.cs",
+              "RelativeDocumentMoniker": "14Aug\\DTO\\ProductDto.cs",
+              "ToolTip": "C:\\practical .net\\Practice\\14Aug\\14Aug\\DTO\\ProductDto.cs",
+              "RelativeToolTip": "14Aug\\DTO\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T04:56:44.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomerProductDto.cs",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\14Aug\\14Aug\\DTO\\CustomerProductDto.cs",
+              "RelativeDocumentMoniker": "14Aug\\DTO\\CustomerProductDto.cs",
+              "ToolTip": "C:\\practical .net\\Practice\\14Aug\\14Aug\\DTO\\CustomerProductDto.cs",
+              "RelativeToolTip": "14Aug\\DTO\\CustomerProductDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T04:57:48.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\14Aug\\14Aug\\appsettings.json",
+              "RelativeDocumentMoniker": "14Aug\\appsettings.json",
+              "ToolTip": "C:\\practical .net\\Practice\\14Aug\\14Aug\\appsettings.json",
+              "RelativeToolTip": "14Aug\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-14T05:54:15.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\10Aug\\10Aug\\Program.cs",
+              "RelativeDocumentMoniker": "..\\10Aug\\10Aug\\Program.cs",
+              "ToolTip": "C:\\practical .net\\Practice\\10Aug\\10Aug\\Program.cs",
+              "RelativeToolTip": "..\\10Aug\\10Aug\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAACNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T06:01:23.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\practical .net\\Practice\\10Aug\\10Aug\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\10Aug\\10Aug\\appsettings.json",
+              "ToolTip": "C:\\practical .net\\Practice\\10Aug\\10Aug\\appsettings.json",
+              "RelativeToolTip": "..\\10Aug\\10Aug\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-14T05:59:09.422Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
