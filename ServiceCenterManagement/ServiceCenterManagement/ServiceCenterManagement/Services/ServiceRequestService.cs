@@ -30,13 +30,29 @@ namespace ServiceCenterManagement.Services
                 context.SaveChanges();
             }
 
-            public void Update(ServiceRequest serviceRequest)
+        public void Update(ServiceRequest serviceRequest)
+        {
+            ServiceRequest existingRequest =
+                context.ServiceRequests.Find(serviceRequest.ServiceRequestId);
+
+            if (existingRequest == null)
             {
-                context.ServiceRequests.Update(serviceRequest);
-                context.SaveChanges();
+                throw new Exception("Service request not found");
             }
 
-            public void Delete(int id)
+            existingRequest.VehicleId = serviceRequest.VehicleId;
+            existingRequest.CustomerId = serviceRequest.CustomerId;
+            existingRequest.TechnicianId = serviceRequest.TechnicianId;
+            existingRequest.RequestDate = serviceRequest.RequestDate;
+            existingRequest.ProblemDescription = serviceRequest.ProblemDescription;
+            existingRequest.ServiceType = serviceRequest.ServiceType;
+            existingRequest.Status = serviceRequest.Status;
+            existingRequest.Priority = serviceRequest.Priority;
+
+            context.SaveChanges();
+        }
+
+        public void Delete(int id)
             {
                 ServiceRequest serviceRequest =
                     context.ServiceRequests.Find(id);

@@ -1,0 +1,54 @@
+﻿@model List<ServiceCenterManagementMVC.Models.Part>
+
+<h2>Parts</h2>
+
+<a asp-action="Create" class="btn btn-primary">
+    Add Part
+</a>
+
+<br />
+<br />
+
+<table class="table table-bordered">
+
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Part Name</th>
+            <th>Part Number</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Supplier</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var part in Model)
+        {
+            <tr>
+                <td>@part.PartId</td>
+                <td>@part.PartName</td>
+                <td>@part.PartNumber</td>
+                <td>@part.Price</td>
+                <td>@part.Quantity</td>
+                <td>@part.Supplier</td>
+
+                <td>
+                    <a asp-action="Details"
+                       asp-route-id="@part.PartId">
+                        Details
+                    </a>
+                    |
+                    <a asp-action="Edit"
+                       asp-route-id="@part.PartId">
+                        Edit
+                    </a>
+                    |
+                   
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>

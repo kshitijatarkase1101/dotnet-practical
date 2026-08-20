@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace ServiceCenterManagement.Models
 {
@@ -28,8 +29,10 @@ namespace ServiceCenterManagement.Models
         public string PaymentStatus {  get; set; }
 
         //Navigation Property
-        public ServiceRequest ServiceRequest {  get; set; }
-        public Payment Payment { get; set; }
+        [JsonIgnore]
+        public ServiceRequest? ServiceRequest {  get; set; }
+        [JsonIgnore]
+        public Payment? Payment { get; set; }
 
 
     }

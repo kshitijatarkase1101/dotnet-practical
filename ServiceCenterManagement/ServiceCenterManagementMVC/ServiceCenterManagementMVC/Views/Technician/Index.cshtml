@@ -1,0 +1,56 @@
+﻿@model List<ServiceCenterManagementMVC.Models.Technician>
+
+<h2>Technicians</h2>
+
+<a asp-action="Create" class="btn btn-primary">
+    Add Technician
+</a>
+
+<br />
+<br />
+
+<table class="table table-bordered">
+
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th>Specialization</th>
+            <th>Experience</th>
+            <th>Availability</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var technician in Model)
+        {
+            <tr>
+                <td>@technician.TechnicianId</td>
+                <td>@technician.Name</td>
+                <td>@technician.Phone</td>
+                <td>@technician.Email</td>
+                <td>@technician.Specialization</td>
+                <td>@technician.Experience</td>
+                <td>@technician.Availability</td>
+
+                <td>
+                    <a asp-action="Details"
+                       asp-route-id="@technician.TechnicianId">
+                        Details
+                    </a>
+                    |
+                    <a asp-action="Edit"
+                       asp-route-id="@technician.TechnicianId">
+                        Edit
+                    </a>
+                    |
+                   
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>

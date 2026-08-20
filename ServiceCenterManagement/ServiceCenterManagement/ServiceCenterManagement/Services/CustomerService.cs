@@ -6,47 +6,69 @@ namespace ServiceCenterManagement.Services
 {
     public class CustomerService : ICustomerService
     {
-       
-            private readonly AppDbContext context;
+        private readonly AppDbContext context;
 
-            public CustomerService(AppDbContext context)
+        public CustomerService(AppDbContext context)
+        {
+            this.context = context;
+        }
+
+        public List<Customer> GetAll()
+        {
+            return context.Customers.ToList();
+        }
+
+        public Customer GetById(int id)
+        {
+            return context.Customers.Find(id);
+        }
+
+        public void Add(Customer customer)
+        {
+            context.Customers.Add(customer);
+            context.SaveChanges();
+        }
+
+        public void Update(Customer customer)
+        {
+            Customer existingCustomer =
+                context.Customers.Find(customer.CustomerId);
+
+            if (existingCustomer == null)
             {
-                this.context = context;
+                throw new Exception("Customer not found");
             }
 
-            public List<Customer> GetAll()
+            existingCustomer.Name = customer.Name;
+            existingCustomer.Phone = customer.Phone;
+            existingCustomer.Email = customer.Email;
+            existingCustomer.Address = customer.Address;
+
+            context.SaveChanges();
+        }
+
+        public void Delete(int id)
+        {
+            Customer customer = context.Customers.Find(id);
+
+            if (customer == null)
             {
-                return context.Customers.ToList();
+                throw new Exception("Customer not found");
             }
 
-            public Customer GetById(int id)
+            bool hasVehicles =
+                context.Vehicles.Any(v => v.CustomerId == id);
+
+            if (hasVehicles)
             {
-                return context.Customers.Find(id);
+                throw new Exception(
+                    "Cannot delete customer because vehicles are associated with this customer.");
             }
 
-            public void Add(Customer customer)
-            {
-                context.Customers.Add(customer);
-                context.SaveChanges();
-            }
+            context.Customers.Remove(customer);
 
-            public void Update(Customer customer)
-            {
-                context.Customers.Update(customer);
-                context.SaveChanges();
-            }
-
-            public void Delete(int id)
-            {
-                Customer customer = context.Customers.Find(id);
-
-                if (customer != null)
-                {
-                    context.Customers.Remove(customer);
-                    context.SaveChanges();
-                }
-            }
-        
+            context.SaveChanges();
+        }
     }
+    
 }
-

@@ -1,0 +1,76 @@
+﻿@model ServiceCenterManagementMVC.Models.Vehicle
+
+@{
+    ViewData["Title"] = "Edit Vehicle";
+}
+
+<h2>Edit Vehicle</h2>
+
+<form asp-action="Edit" method="post">
+
+    <input type="hidden" asp-for="VehicleId" />
+
+    <div class="form-group">
+        <label asp-for="CustomerId"></label>
+        <input asp-for="CustomerId" class="form-control" />
+        <span asp-validation-for="CustomerId"
+              class="text-danger"></span>
+    </div>
+
+    <br />
+
+    <div class="form-group">
+        <label asp-for="VehicleNumber"></label>
+        <input asp-for="VehicleNumber" class="form-control" />
+        <span asp-validation-for="VehicleNumber"
+              class="text-danger"></span>
+    </div>
+
+    <br />
+
+    <div class="form-group">
+        <label asp-for="Brand"></label>
+        <input asp-for="Brand" class="form-control" />
+        <span asp-validation-for="Brand"
+              class="text-danger"></span>
+    </div>
+
+    <br />
+
+    <div class="form-group">
+        <label asp-for="Model"></label>
+        <input asp-for="Model" class="form-control" />
+        <span asp-validation-for="Model"
+              class="text-danger"></span>
+    </div>
+
+    <br />
+
+    <div class="form-group">
+        <label asp-for="Year"></label>
+        <input asp-for="Year" class="form-control" />
+        <span asp-validation-for="Year"
+              class="text-danger"></span>
+    </div>
+
+    <br />
+
+    <div class="form-group">
+        <label asp-for="VehicleType"></label>
+        <input asp-for="VehicleType" class="form-control" />
+        <span asp-validation-for="VehicleType"
+              class="text-danger"></span>
+    </div>
+
+    <br />
+
+    <button type="submit" class="btn btn-primary">
+        Update
+    </button>
+
+    <a asp-action="Index"
+       class="btn btn-secondary">
+        Back
+    </a>
+
+</form>

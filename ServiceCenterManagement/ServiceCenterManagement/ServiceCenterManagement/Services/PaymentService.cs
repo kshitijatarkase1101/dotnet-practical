@@ -31,7 +31,29 @@ namespace ServiceCenterManagement.Services
 
         public void Update(Payment payment)
         {
-            context.Payments.Update(payment);
+            Payment existingPayment =
+                context.Payments.Find(payment.PaymentId);
+
+            if (existingPayment == null)
+            {
+                throw new Exception("Payment not found");
+            }
+
+            existingPayment.InvoiceId =
+                payment.InvoiceId;
+
+            existingPayment.Amount =
+                payment.Amount;
+
+            existingPayment.PaymentDate =
+                payment.PaymentDate;
+
+            existingPayment.PaymentMethod =
+                payment.PaymentMethod;
+
+            existingPayment.PaymentStatus =
+                payment.PaymentStatus;
+
             context.SaveChanges();
         }
 

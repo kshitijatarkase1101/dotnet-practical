@@ -1,0 +1,93 @@
+﻿@model ServiceCenterManagementMVC.Models.ServiceRequest
+
+@{
+    ViewData["Title"] = "Edit Service Request";
+}
+
+<h2>Edit Service Request</h2>
+
+<form asp-action="Edit" method="post">
+
+    <div asp-validation-summary="All"
+         class="text-danger">
+    </div>
+
+    <input type="hidden"
+           asp-for="ServiceRequestId" />
+
+    <div class="form-group">
+        <label asp-for="VehicleId"></label>
+        <input asp-for="VehicleId"
+               class="form-control" />
+    </div>
+
+    <br />
+
+    <div class="form-group">
+        <label asp-for="CustomerId"></label>
+        <input asp-for="CustomerId"
+               class="form-control" />
+    </div>
+
+    <br />
+
+    <div class="form-group">
+        <label asp-for="TechnicianId"></label>
+        <input asp-for="TechnicianId"
+               class="form-control" />
+    </div>
+
+    <br />
+
+    <div class="form-group">
+        <label asp-for="RequestDate"></label>
+        <input asp-for="RequestDate"
+               type="date"
+               class="form-control" />
+    </div>
+
+    <br />
+
+    <div class="form-group">
+        <label asp-for="ProblemDescription"></label>
+        <input asp-for="ProblemDescription"
+               class="form-control" />
+    </div>
+
+    <br />
+
+    <div class="form-group">
+        <label asp-for="ServiceType"></label>
+        <input asp-for="ServiceType"
+               class="form-control" />
+    </div>
+
+    <br />
+
+    <div class="form-group">
+        <label asp-for="Status"></label>
+        <input asp-for="Status"
+               class="form-control" />
+    </div>
+
+    <br />
+
+    <div class="form-group">
+        <label asp-for="Priority"></label>
+        <input asp-for="Priority"
+               class="form-control" />
+    </div>
+
+    <br />
+
+    <button type="submit"
+            class="btn btn-primary">
+        Save
+    </button>
+
+    <a asp-action="Index"
+       class="btn btn-secondary">
+        Back
+    </a>
+
+</form>

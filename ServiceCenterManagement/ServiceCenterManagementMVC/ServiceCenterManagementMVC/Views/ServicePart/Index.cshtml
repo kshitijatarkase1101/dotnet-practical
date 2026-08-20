@@ -1,0 +1,42 @@
+﻿@model List<ServiceCenterManagementMVC.Models.ServicePart>
+
+<h2>Service Parts</h2>
+
+<a asp-action="Create" class="btn btn-primary">
+    Add Service Part
+</a>
+
+<br />
+<br />
+
+<table class="table table-bordered">
+
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Service Request Id</th>
+            <th>Part Id</th>
+            <th>Quantity Used</th>
+            <th>Price</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (var servicePart in Model)
+        {
+            <tr>
+                <td>@servicePart.ServicePartId</td>
+                <td>@servicePart.ServiceRequestId</td>
+                <td>@servicePart.PartId</td>
+                <td>@servicePart.QuantityUsed</td>
+                <td>@servicePart.Price</td>
+
+               
+            </tr>
+        }
+
+    </tbody>
+
+</table>

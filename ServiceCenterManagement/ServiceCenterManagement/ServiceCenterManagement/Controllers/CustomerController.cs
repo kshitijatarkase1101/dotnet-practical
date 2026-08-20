@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ServiceCenterManagement.Models;
 using ServiceCenterManagement.Repository;
+using System.Text.Json;
 
 namespace ServiceCenterManagement.Controllers
 {
@@ -19,13 +20,15 @@ namespace ServiceCenterManagement.Controllers
                 this.service = service;
             }
 
-            [HttpGet]
+        [Authorize(Roles = "Admin,Customer,Technician")]
+        [HttpGet]
             public IActionResult GetAll()
             {
                 return Ok(service.GetAll());
             }
 
-            [HttpGet("{id}")]
+        [Authorize(Roles = "Admin,Customer,Technician")]
+        [HttpGet("{id}")]
             public IActionResult GetById(int id)
             {
                 Customer customer = service.GetById(id);
@@ -39,43 +42,48 @@ namespace ServiceCenterManagement.Controllers
             }
 
             [HttpPost]
-            public IActionResult Add(Customer customer)
+        [Authorize(Roles = "Admin")]
+        public IActionResult Add(Customer customer)
             {
                 service.Add(customer);
 
                 return Ok("Customer added successfully");
             }
 
-            [HttpPut]
-            public IActionResult Update(Customer customer)
+        [HttpPut]
+        [Authorize(Roles = "Admin")]
+        public IActionResult Update(Customer customer)
+        {
+            Customer existingCustomer = service.GetById(customer.CustomerId);
+
+            if (existingCustomer == null)
             {
-                Customer existingCustomer = service.GetById(customer.CustomerId);
-
-                if (existingCustomer == null)
-                {
-                    return NotFound("Customer not found");
-                }
-
-                service.Update(customer);
-
-                return Ok("Customer updated successfully");
+                return NotFound("Customer not found");
             }
 
-            [HttpDelete("{id}")]
-            public IActionResult Delete(int id)
+            service.Update(customer);
+
+            return Ok("Customer updated successfully");
+        }
+        [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]
+        public IActionResult Delete(int id)
+        {
+            Customer customer = service.GetById(id);
+
+            if (customer == null)
             {
-                Customer customer = service.GetById(id);
-
-                if (customer == null)
-                {
-                    return NotFound("Customer not found");
-                }
-
-                service.Delete(id);
-
-                return Ok("Customer deleted successfully");
+                return NotFound("Customer not found");
             }
-        
+
+            service.Delete(id);
+
+            return Ok("Customer deleted successfully");
+        }
+
+
+
+
     }
 }
 

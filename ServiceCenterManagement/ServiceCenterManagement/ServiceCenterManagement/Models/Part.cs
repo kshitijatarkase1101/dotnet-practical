@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace ServiceCenterManagement.Models
 {
@@ -18,6 +19,7 @@ namespace ServiceCenterManagement.Models
         [Required(ErrorMessage = "Supplier is required")]
         public string Supplier {  get; set; }
 
-        public ICollection<ServicePart> ServiceParts { get; set; }
+        [JsonIgnore]
+        public ICollection<ServicePart>? ServiceParts { get; set; }
     }
 }

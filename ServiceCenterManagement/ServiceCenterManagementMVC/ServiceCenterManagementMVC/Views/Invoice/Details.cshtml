@@ -1,0 +1,79 @@
+﻿@model ServiceCenterManagementMVC.Models.Invoice
+
+@{
+    ViewData["Title"] = "Invoice Details";
+}
+
+<h2>Invoice Details</h2>
+
+<dl class="row">
+
+    <dt class="col-sm-3">
+        Invoice Id
+    </dt>
+    <dd class="col-sm-9">
+        @Model.InvoiceId
+    </dd>
+
+    <dt class="col-sm-3">
+        Service Request Id
+    </dt>
+    <dd class="col-sm-9">
+        @Model.ServiceRequestId
+    </dd>
+
+    <dt class="col-sm-3">
+        Invoice Date
+    </dt>
+    <dd class="col-sm-9">
+        @Model.InvoiceDate
+    </dd>
+
+    <dt class="col-sm-3">
+        Labor Charge
+    </dt>
+    <dd class="col-sm-9">
+        @Model.LaborCharge
+    </dd>
+
+    <dt class="col-sm-3">
+        Parts Charge
+    </dt>
+    <dd class="col-sm-9">
+        @Model.PartsCharge
+    </dd>
+
+    <dt class="col-sm-3">
+        Tax
+    </dt>
+    <dd class="col-sm-9">
+        @Model.Tax
+    </dd>
+
+    <dt class="col-sm-3">
+        Discount
+    </dt>
+    <dd class="col-sm-9">
+        @Model.Discount
+    </dd>
+
+    <dt class="col-sm-3">
+        Total Amount
+    </dt>
+    <dd class="col-sm-9">
+        @Model.TotalAmount
+    </dd>
+
+    <dt class="col-sm-3">
+        Payment Status
+    </dt>
+    <dd class="col-sm-9">
+        @Model.PaymentStatus
+    </dd>
+
+</dl>
+
+<a asp-action="Index"
+   class="btn btn-secondary">
+    Back
+</a>

@@ -1,0 +1,59 @@
+﻿@model List<ServiceCenterManagementMVC.Models.Invoice>
+
+<h2>Invoices</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">
+        Add Invoice
+    </a>
+</p><
+
+
+<br />
+
+<table class="table table-bordered">
+
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Service Request</th>
+            <th>Invoice Date</th>
+            <th>Labor Charge</th>
+            <th>Parts Charge</th>
+            <th>Tax</th>
+            <th>Discount</th>
+            <th>Total Amount</th>
+            <th>Payment Status</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (var invoice in Model)
+        {
+            <tr>
+                <td>@invoice.InvoiceId</td>
+                <td>@invoice.ServiceRequestId</td>
+                <td>@invoice.InvoiceDate</td>
+                <td>@invoice.LaborCharge</td>
+                <td>@invoice.PartsCharge</td>
+                <td>@invoice.Tax</td>
+                <td>@invoice.Discount</td>
+                <td>@invoice.TotalAmount</td>
+                <td>@invoice.PaymentStatus</td>
+
+                <td>
+                    <a asp-action="Details"
+                       asp-route-id="@invoice.InvoiceId">
+                        Details
+                    </a>
+                    
+                   
+                </td>
+            </tr>
+        }
+
+    </tbody>
+
+</table>

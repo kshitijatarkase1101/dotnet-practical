@@ -1,0 +1,40 @@
+﻿@model ServiceCenterManagementMVC.Models.Part
+
+@{
+    ViewData["Title"] = "Part Details";
+}
+
+<h2>Part Details</h2>
+
+<dl class="row">
+
+    <dt class="col-sm-3">Part Id</dt>
+    <dd class="col-sm-9">@Model.PartId</dd>
+
+    <dt class="col-sm-3">Part Name</dt>
+    <dd class="col-sm-9">@Model.PartName</dd>
+
+    <dt class="col-sm-3">Part Number</dt>
+    <dd class="col-sm-9">@Model.PartNumber</dd>
+
+    <dt class="col-sm-3">Price</dt>
+    <dd class="col-sm-9">@Model.Price</dd>
+
+    <dt class="col-sm-3">Quantity</dt>
+    <dd class="col-sm-9">@Model.Quantity</dd>
+
+    <dt class="col-sm-3">Supplier</dt>
+    <dd class="col-sm-9">@Model.Supplier</dd>
+
+</dl>
+
+<a asp-action="Edit"
+   asp-route-id="@Model.PartId"
+   class="btn btn-primary">
+    Edit
+</a>
+
+<a asp-action="Index"
+   class="btn btn-secondary">
+    Back
+</a>

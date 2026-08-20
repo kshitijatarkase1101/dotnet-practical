@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace ServiceCenterManagement.Models
 {
@@ -19,6 +20,7 @@ namespace ServiceCenterManagement.Models
         [Required(ErrorMessage = "Password is  mandatory")]
         public string Password {  get; set; }
 
-        public ICollection<Vehicle> Vehicles {  get; set; }
+        [JsonIgnore]
+        public ICollection<Vehicle>? Vehicles { get; set; } 
     }
 }

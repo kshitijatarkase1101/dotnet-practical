@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace ServiceCenterManagement.Models
 {
@@ -12,7 +13,8 @@ namespace ServiceCenterManagement.Models
             public int InvoiceId { get; set; }
 
             // Navigation Property
-            public Invoice Invoice { get; set; }
+            [JsonIgnore]
+            public Invoice ? Invoice { get; set; }
 
             [Required(ErrorMessage = "Payment amount is required")]
             public decimal Amount { get; set; }

@@ -30,13 +30,26 @@ namespace ServiceCenterManagement.Services
                 context.SaveChanges();
             }
 
-            public void Update(Part part)
+        public void Update(Part part)
+        {
+            Part existingPart =
+                context.Parts.Find(part.PartId);
+
+            if (existingPart == null)
             {
-                context.Parts.Update(part);
-                context.SaveChanges();
+                throw new Exception("Part not found");
             }
 
-            public void Delete(int id)
+            existingPart.PartName = part.PartName;
+            existingPart.PartNumber = part.PartNumber;
+            existingPart.Price = part.Price;
+            existingPart.Quantity = part.Quantity;
+            existingPart.Supplier = part.Supplier;
+
+            context.SaveChanges();
+        }
+
+        public void Delete(int id)
             {
                 Part part = context.Parts.Find(id);
 

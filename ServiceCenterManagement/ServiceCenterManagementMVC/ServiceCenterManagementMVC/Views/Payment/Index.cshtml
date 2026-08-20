@@ -1,0 +1,49 @@
+﻿@model List<ServiceCenterManagementMVC.Models.Payment>
+
+<h2>Payments</h2>
+
+<a asp-action="Create" class="btn btn-primary">
+    Add Payment
+</a>
+
+<br />
+<br />
+
+<table class="table table-bordered">
+
+    <thead>
+        <tr>
+            <th>Payment Id</th>
+            <th>Invoice Id</th>
+            <th>Amount</th>
+            <th>Payment Date</th>
+            <th>Payment Method</th>
+            <th>Payment Status</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var payment in Model)
+        {
+            <tr>
+                <td>@payment.PaymentId</td>
+                <td>@payment.InvoiceId</td>
+                <td>@payment.Amount</td>
+                <td>@payment.PaymentDate</td>
+                <td>@payment.PaymentMethod</td>
+                <td>@payment.PaymentStatus</td>
+
+                <td>
+                    <a asp-action="Details"
+                       asp-route-id="@payment.PaymentId">
+                        Details
+                    </a>
+                    |
+                   
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>

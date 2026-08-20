@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace ServiceCenterManagement.Models
 {
@@ -16,8 +17,10 @@ namespace ServiceCenterManagement.Models
         public decimal Price { get; set; }
 
         //navigation property
-        public ServiceRequest ServiceRequest { get; set; }
-        public Part Part { get; set; }
+        [JsonIgnore]
+        public ServiceRequest? ServiceRequest { get; set; }
+        [JsonIgnore]
+        public Part? Part { get; set; }
 
     }
 }

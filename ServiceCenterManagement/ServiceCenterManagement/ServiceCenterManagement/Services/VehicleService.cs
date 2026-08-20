@@ -31,13 +31,27 @@ namespace ServiceCenterManagement.Services
                 context.SaveChanges();
             }
 
-            public void Update(Vehicle vehicle)
+        public void Update(Vehicle vehicle)
+        {
+            Vehicle existingVehicle =
+                context.Vehicles.Find(vehicle.VehicleId);
+
+            if (existingVehicle == null)
             {
-                context.Vehicles.Update(vehicle);
-                context.SaveChanges();
+                throw new Exception("Vehicle not found");
             }
 
-            public void Delete(int id)
+            existingVehicle.CustomerId = vehicle.CustomerId;
+            existingVehicle.VehicleNumber = vehicle.VehicleNumber;
+            existingVehicle.Brand = vehicle.Brand;
+            existingVehicle.Model = vehicle.Model;
+            existingVehicle.Year = vehicle.Year;
+            existingVehicle.VehicleType = vehicle.VehicleType;
+
+            context.SaveChanges();
+        }
+
+        public void Delete(int id)
             {
                 Vehicle vehicle = context.Vehicles.Find(id);
 

@@ -1,0 +1,71 @@
+﻿@model ServiceCenterManagementMVC.Models.Vehicle
+
+@{
+    ViewData["Title"] = "Vehicle Details";
+}
+
+<h2>Vehicle Details</h2>
+
+<dl class="row">
+
+    <dt class="col-sm-3">
+        Vehicle Id
+    </dt>
+    <dd class="col-sm-9">
+        @Model.VehicleId
+    </dd>
+
+    <dt class="col-sm-3">
+        Customer Id
+    </dt>
+    <dd class="col-sm-9">
+        @Model.CustomerId
+    </dd>
+
+    <dt class="col-sm-3">
+        Vehicle Number
+    </dt>
+    <dd class="col-sm-9">
+        @Model.VehicleNumber
+    </dd>
+
+    <dt class="col-sm-3">
+        Brand
+    </dt>
+    <dd class="col-sm-9">
+        @Model.Brand
+    </dd>
+
+    <dt class="col-sm-3">
+        Model
+    </dt>
+    <dd class="col-sm-9">
+        @Model.Model
+    </dd>
+
+    <dt class="col-sm-3">
+        Year
+    </dt>
+    <dd class="col-sm-9">
+        @Model.Year
+    </dd>
+
+    <dt class="col-sm-3">
+        Vehicle Type
+    </dt>
+    <dd class="col-sm-9">
+        @Model.VehicleType
+    </dd>
+
+</dl>
+
+<a asp-action="Edit"
+   asp-route-id="@Model.VehicleId"
+   class="btn btn-primary">
+    Edit
+</a>
+
+<a asp-action="Index"
+   class="btn btn-secondary">
+    Back
+</a>

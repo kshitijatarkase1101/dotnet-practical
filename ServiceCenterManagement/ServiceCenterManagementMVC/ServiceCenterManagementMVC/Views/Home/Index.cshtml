@@ -1,0 +1,116 @@
+﻿@{
+    ViewData["Title"] = "Service Center Management";
+}
+
+<div class="text-center">
+
+    <h1 class="display-4">
+        Service Center Management System
+    </h1>
+
+    <p class="lead">
+        Manage customers, vehicles, services, technicians,
+        parts, payments and invoices.
+    </p>
+
+</div>
+
+<hr />
+
+<div class="row">
+
+    <div class="col-md-4 mb-3">
+        <div class="card">
+            <div class="card-body">
+                <h4>Customers</h4>
+                <p>Manage customer information.</p>
+
+                <a asp-controller="Customer"
+                   asp-action="Index"
+                   class="btn btn-primary">
+                    Customers
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+        <div class="card">
+            <div class="card-body">
+                <h4>Vehicles</h4>
+                <p>Manage customer vehicles.</p>
+
+                <a asp-controller="Vehicle"
+                   asp-action="Index"
+                   class="btn btn-primary">
+                    Vehicles
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+        <div class="card">
+            <div class="card-body">
+                <h4>Service Requests</h4>
+                <p>Manage vehicle service requests.</p>
+
+                <a asp-controller="ServiceRequest"
+                   asp-action="Index"
+                   class="btn btn-primary">
+                    Services
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="row">
+
+    <div class="col-md-4 mb-3">
+        <div class="card">
+            <div class="card-body">
+                <h4>Technicians</h4>
+                <p>Manage technicians.</p>
+
+                <a asp-controller="Technician"
+                   asp-action="Index"
+                   class="btn btn-primary">
+                    Technicians
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+        <div class="card">
+            <div class="card-body">
+                <h4>Parts</h4>
+                <p>Manage spare parts.</p>
+
+                <a asp-controller="Part"
+                   asp-action="Index"
+                   class="btn btn-primary">
+                    Parts
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+        <div class="card">
+            <div class="card-body">
+                <h4>Invoices</h4>
+                <p>View service invoices.</p>
+
+                <a asp-controller="Invoice"
+                   asp-action="Index"
+                   class="btn btn-primary">
+                    Invoices
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>

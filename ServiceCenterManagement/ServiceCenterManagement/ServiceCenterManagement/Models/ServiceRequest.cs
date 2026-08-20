@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace ServiceCenterManagement.Models
 {
@@ -25,11 +26,16 @@ namespace ServiceCenterManagement.Models
         public string Priority {  get; set; }
 
         // Navigation Properties
-        public Vehicle Vehicle { get; set; }
-        public Customer Customer { get; set; }
-        public Technician Technician { get; set; }
-        public Invoice Invoice {  get; set; }
-
-        public ICollection<ServicePart> ServiceParts { get; set; }
+        [JsonIgnore]
+        public Vehicle? Vehicle { get; set; }
+        [JsonIgnore]
+        public Customer? Customer { get; set; }
+        [JsonIgnore]
+        public Technician? Technician { get; set; }
+        [JsonIgnore]
+        public Invoice? Invoice {  get; set; }
+       
+        [JsonIgnore]
+        public ICollection<ServicePart> ServiceParts { get; set; } = new List<ServicePart>();
     }
 }

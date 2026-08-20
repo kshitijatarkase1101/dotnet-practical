@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ServiceCenterManagement.Models;
 using ServiceCenterManagement.Repository;
@@ -7,74 +7,76 @@ namespace ServiceCenterManagement.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ServicePartController : ControllerBase
     {
-      
-            private readonly IServicePartService service;
+        private readonly IServicePartService service;
 
-            public ServicePartController(IServicePartService service)
+        public ServicePartController(IServicePartService service)
+        {
+            this.service = service;
+        }
+
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            return Ok(service.GetAll());
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult GetById(int id)
+        {
+            ServicePart servicePart = service.GetById(id);
+
+            if (servicePart == null)
             {
-                this.service = service;
+                return NotFound("Service part not found");
             }
 
-            [HttpGet]
-            public IActionResult GetAll()
+            return Ok(servicePart);
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpPost]
+        public IActionResult Add(ServicePart servicePart)
+        {
+            service.Add(servicePart);
+
+            return Ok("Service part added successfully");
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpPut]
+        public IActionResult Update(ServicePart servicePart)
+        {
+            ServicePart existingServicePart =
+                service.GetById(servicePart.ServicePartId);
+
+            if (existingServicePart == null)
             {
-                return Ok(service.GetAll());
+                return NotFound("Service part not found");
             }
 
-            [HttpGet("{id}")]
-            public IActionResult GetById(int id)
+            service.Update(servicePart);
+
+            return Ok("Service part updated successfully");
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            ServicePart servicePart = service.GetById(id);
+
+            if (servicePart == null)
             {
-                ServicePart servicePart = service.GetById(id);
-
-                if (servicePart == null)
-                {
-                    return NotFound("Service part not found");
-                }
-
-                return Ok(servicePart);
+                return NotFound("Service part not found");
             }
 
-            [HttpPost]
-            public IActionResult Add(ServicePart servicePart)
-            {
-                service.Add(servicePart);
+            service.Delete(id);
 
-                return Ok("Service part added successfully");
-            }
-
-            [HttpPut]
-            public IActionResult Update(ServicePart servicePart)
-            {
-                ServicePart existingServicePart =
-                    service.GetById(servicePart.ServicePartId);
-
-                if (existingServicePart == null)
-                {
-                    return NotFound("Service part not found");
-                }
-
-                service.Update(servicePart);
-
-                return Ok("Service part updated successfully");
-            }
-
-            [HttpDelete("{id}")]
-            public IActionResult Delete(int id)
-            {
-                ServicePart servicePart = service.GetById(id);
-
-                if (servicePart == null)
-                {
-                    return NotFound("Service part not found");
-                }
-
-                service.Delete(id);
-
-                return Ok("Service part deleted successfully");
-            }
-        
+            return Ok("Service part deleted successfully");
+        }
     }
 }
 

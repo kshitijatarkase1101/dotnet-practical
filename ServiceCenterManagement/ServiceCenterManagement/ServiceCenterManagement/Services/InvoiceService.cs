@@ -30,13 +30,44 @@ namespace ServiceCenterManagement.Services
                 context.SaveChanges();
             }
 
-            public void Update(Invoice invoice)
+        public void Update(Invoice invoice)
+        {
+            Invoice existingInvoice =
+                context.Invoices.Find(invoice.InvoiceId);
+
+            if (existingInvoice == null)
             {
-                context.Invoices.Update(invoice);
-                context.SaveChanges();
+                throw new Exception("Invoice not found");
             }
 
-            public void Delete(int id)
+            existingInvoice.ServiceRequestId =
+                invoice.ServiceRequestId;
+
+            existingInvoice.InvoiceDate =
+                invoice.InvoiceDate;
+
+            existingInvoice.LaborCharge =
+                invoice.LaborCharge;
+
+            existingInvoice.PartsCharge =
+                invoice.PartsCharge;
+
+            existingInvoice.Tax =
+                invoice.Tax;
+
+            existingInvoice.Discount =
+                invoice.Discount;
+
+            existingInvoice.TotalAmount =
+                invoice.TotalAmount;
+
+            existingInvoice.PaymentStatus =
+                invoice.PaymentStatus;
+
+            context.SaveChanges();
+        }
+
+        public void Delete(int id)
             {
                 Invoice invoice = context.Invoices.Find(id);
 

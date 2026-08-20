@@ -1,0 +1,123 @@
+﻿@model ServiceCenterManagementMVC.Models.Invoice
+
+@{
+    ViewData["Title"] = "Create Invoice";
+}
+
+<h2>Create Invoice</h2>
+
+<form asp-action="Create" method="post">
+
+    <div class="mb-3">
+        <label asp-for="ServiceRequestId" class="form-label">
+            Service Request ID
+        </label>
+
+        <input asp-for="ServiceRequestId"
+               class="form-control" />
+
+        <span asp-validation-for="ServiceRequestId"
+              class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="InvoiceDate" class="form-label">
+            Invoice Date
+        </label>
+
+        <input asp-for="InvoiceDate"
+               type="date"
+               class="form-control" />
+
+        <span asp-validation-for="InvoiceDate"
+              class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="LaborCharge" class="form-label">
+            Labor Charge
+        </label>
+
+        <input asp-for="LaborCharge"
+               class="form-control" />
+
+        <span asp-validation-for="LaborCharge"
+              class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="PartsCharge" class="form-label">
+            Parts Charge
+        </label>
+
+        <input asp-for="PartsCharge"
+               class="form-control" />
+
+        <span asp-validation-for="PartsCharge"
+              class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Tax" class="form-label">
+            Tax
+        </label>
+
+        <input asp-for="Tax"
+               class="form-control" />
+
+        <span asp-validation-for="Tax"
+              class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Discount" class="form-label">
+            Discount
+        </label>
+
+        <input asp-for="Discount"
+               class="form-control" />
+
+        <span asp-validation-for="Discount"
+              class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="TotalAmount" class="form-label">
+            Total Amount
+        </label>
+
+        <input asp-for="TotalAmount"
+               class="form-control" />
+
+        <span asp-validation-for="TotalAmount"
+              class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="PaymentStatus" class="form-label">
+            Payment Status
+        </label>
+
+        <input asp-for="PaymentStatus"
+               class="form-control" />
+
+        <span asp-validation-for="PaymentStatus"
+              class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">
+        Save
+    </button>
+
+    <a asp-action="Index"
+       class="btn btn-secondary">
+        Back
+    </a>
+
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

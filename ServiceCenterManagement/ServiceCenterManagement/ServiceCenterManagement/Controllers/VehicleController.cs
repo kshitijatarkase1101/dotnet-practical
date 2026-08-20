@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ServiceCenterManagement.Models;
 using ServiceCenterManagement.Repository;
@@ -7,6 +8,7 @@ namespace ServiceCenterManagement.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class VehicleController : ControllerBase
     {
        
@@ -35,15 +37,18 @@ namespace ServiceCenterManagement.Controllers
 
                 return Ok(vehicle);
             }
-
+             
+            [Authorize(Roles = "Admin")]
             [HttpPost]
+
             public IActionResult Add(Vehicle vehicle)
             {
                 service.Add(vehicle);
 
                 return Ok("Vehicle added successfully");
             }
-
+           
+        [Authorize(Roles = "Admin")]
             [HttpPut]
             public IActionResult Update(Vehicle vehicle)
             {
@@ -58,7 +63,8 @@ namespace ServiceCenterManagement.Controllers
 
                 return Ok("Vehicle updated successfully");
             }
-
+          
+        [Authorize(Roles = "Admin")]
             [HttpDelete("{id}")]
             public IActionResult Delete(int id)
             {

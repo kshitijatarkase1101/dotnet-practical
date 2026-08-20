@@ -31,7 +31,26 @@ namespace ServiceCenterManagement.Services
 
         public void Update(ServicePart servicePart)
         {
-            context.ServiceParts.Update(servicePart);
+            ServicePart existingServicePart =
+                context.ServiceParts.Find(servicePart.ServicePartId);
+
+            if (existingServicePart == null)
+            {
+                throw new Exception("Service part not found");
+            }
+
+            existingServicePart.ServiceRequestId =
+                servicePart.ServiceRequestId;
+
+            existingServicePart.PartId =
+                servicePart.PartId;
+
+            existingServicePart.QuantityUsed =
+                servicePart.QuantityUsed;
+
+            existingServicePart.Price =
+                servicePart.Price;
+
             context.SaveChanges();
         }
 

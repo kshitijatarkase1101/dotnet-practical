@@ -1,0 +1,64 @@
+﻿@model List<ServiceCenterManagementMVC.Models.Vehicle>
+
+@{
+    ViewData["Title"] = "Vehicles";
+}
+
+<h2>Vehicles</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">
+        Add Vehicle
+    </a>
+</p>
+
+<table class="table table-bordered">
+
+    <thead>
+        <tr>
+            <th>Vehicle Id</th>
+            <th>Customer Id</th>
+            <th>Vehicle Number</th>
+            <th>Brand</th>
+            <th>Model</th>
+            <th>Year</th>
+            <th>Vehicle Type</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (var vehicle in Model)
+        {
+            <tr>
+                <td>@vehicle.VehicleId</td>
+                <td>@vehicle.CustomerId</td>
+                <td>@vehicle.VehicleNumber</td>
+                <td>@vehicle.Brand</td>
+                <td>@vehicle.Model</td>
+                <td>@vehicle.Year</td>
+                <td>@vehicle.VehicleType</td>
+
+                <td>
+                    <a asp-action="Details"
+                       asp-route-id="@vehicle.VehicleId">
+                        Details
+                    </a>
+                    |
+                    <a asp-action="Edit"
+                       asp-route-id="@vehicle.VehicleId">
+                        Edit
+                    </a>
+                    |
+                    <a asp-action="Delete"
+                       asp-route-id="@vehicle.VehicleId">
+                        Delete
+                    </a>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+
+</table>

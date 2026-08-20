@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace ServiceCenterManagement.Models
 {
@@ -21,7 +22,8 @@ namespace ServiceCenterManagement.Models
         [Required(ErrorMessage = "Avaliability is required")]
         public string Availability {  get; set; }
 
-        
-        public ICollection<ServiceRequest> ServiceRequests { get; set; }
+
+        [JsonIgnore]
+        public ICollection<ServiceRequest> ServiceRequests { get; set; }=new List<ServiceRequest>();
     }
 }

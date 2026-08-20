@@ -1,0 +1,68 @@
+﻿@model List<ServiceCenterManagementMVC.Models.ServiceRequest>
+
+@{
+    ViewData["Title"] = "Service Requests";
+}
+
+<h2>Service Requests</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">
+        Add Service Request
+    </a>
+</p>
+
+<table class="table table-bordered">
+
+    <thead>
+        <tr>
+            <th>Request Id</th>
+            <th>Vehicle Id</th>
+            <th>Customer Id</th>
+            <th>Technician Id</th>
+            <th>Request Date</th>
+            <th>Problem</th>
+            <th>Service Type</th>
+            <th>Status</th>
+            <th>Priority</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (var request in Model)
+        {
+            <tr>
+                <td>@request.ServiceRequestId</td>
+                <td>@request.VehicleId</td>
+                <td>@request.CustomerId</td>
+                <td>@request.TechnicianId</td>
+                <td>@request.RequestDate</td>
+                <td>@request.ProblemDescription</td>
+                <td>@request.ServiceType</td>
+                <td>@request.Status</td>
+                <td>@request.Priority</td>
+
+                <td>
+                    <a asp-action="Details"
+                       asp-route-id="@request.ServiceRequestId">
+                        Details
+                    </a>
+                    |
+                    <a asp-action="Edit"
+                       asp-route-id="@request.ServiceRequestId">
+                        Edit
+                    </a>
+                    |
+                    <a asp-action="Delete"
+                       asp-route-id="@request.ServiceRequestId">
+                        Delete
+                    </a>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+
+</table>
