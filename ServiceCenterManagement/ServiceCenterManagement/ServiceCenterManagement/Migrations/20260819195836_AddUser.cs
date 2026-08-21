@@ -4,7 +4,7 @@
 
 namespace ServiceCenterManagement.Migrations
 {
-    /// <inheritdoc />
+    
     public partial class AddUser : Migration
     {
         /// <inheritdoc />
@@ -26,7 +26,7 @@ namespace ServiceCenterManagement.Migrations
                 });
         }
 
-        /// <inheritdoc />
+        
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(

@@ -212,7 +212,6 @@ namespace ServiceCenterManagementMVC.Controllers
         }
 
         [HttpPost]
-        [ActionName("Delete")]
         public IActionResult DeleteConfirmed(int id)
         {
             SetToken();
@@ -224,6 +223,11 @@ namespace ServiceCenterManagementMVC.Controllers
             {
                 return RedirectToAction("Index");
             }
+
+            string error =
+                response.Content.ReadAsStringAsync().Result;
+
+            ModelState.AddModelError("", error);
 
             return View();
         }

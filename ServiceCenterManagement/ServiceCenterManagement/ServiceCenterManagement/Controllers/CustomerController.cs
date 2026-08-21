@@ -65,6 +65,7 @@ namespace ServiceCenterManagement.Controllers
 
             return Ok("Customer updated successfully");
         }
+       
         [HttpDelete("{id}")]
         [Authorize(Roles = "Admin")]
         public IActionResult Delete(int id)

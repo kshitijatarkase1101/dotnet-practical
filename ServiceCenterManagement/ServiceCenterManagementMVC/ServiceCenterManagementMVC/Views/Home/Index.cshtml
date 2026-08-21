@@ -9,7 +9,7 @@
     </h1>
 
     <p class="lead">
-        Manage customers, vehicles, services, technicians,
+        Manage customers, vehicles, service requests, technicians,
         parts, payments and invoices.
     </p>
 
@@ -108,6 +108,20 @@
                    asp-action="Index"
                    class="btn btn-primary">
                     Invoices
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-3">
+        <div class="card">
+            <div class="card-body">
+                <h4>Payment</h4>
+                <p>View Payments.</p>
+
+                <a asp-controller="Payment"
+                   asp-action="Index"
+                   class="btn btn-primary">
+                    Payments
                 </a>
             </div>
         </div>
